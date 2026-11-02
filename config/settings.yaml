@@ -1,0 +1,131 @@
+# ============================================================
+# 全球音乐榜单聚合歌单 · 主配置
+# 每周一由 GitHub Actions 定时执行一次；也可本地手动运行
+# ============================================================
+
+project:
+  name: chart-playlist-aggregator
+  version: "1.0.0"
+
+# 调度信息与实际工作流保持一致，cron 定义见 .github/workflows/weekly-playlist.yml
+schedule:
+  timezone: UTC
+  cron: "0 1 * * 1"          # 每周一 01:00 UTC = 北京时间周一 09:00
+  description: "每周一自动执行一次"
+
+limits:
+  per_chart: 100             # 每个歌单最多保留条数
+  max_items_per_source: 100  # 单个榜单源最多读取条数
+
+http:
+  timeout_seconds: 20
+  retries: 2
+  backoff_seconds: 2.0
+  min_interval_seconds: 0.6  # 同一站点两次请求的最小间隔（礼貌采集）
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+scoring:
+  rank_score_mode: linear    # linear: (总数 - 名次 + 1) / 总数 ；inverse: 1 / 名次
+  chart_type_weights:        # 榜单类型基准权重（同一歌单内为常数，用于统一口径）
+    europe: 1.0
+    hot: 1.2
+    new: 0.8
+  tie_breakers: [appearances, best_rank, first_seen]
+
+dedupe:
+  case_insensitive: true
+  strip_punctuation: true
+  collapse_spaces: true
+  strip_version_suffix: true
+  version_suffix_patterns:
+    - '(?i)[\s\-]*[\(（\[][^\)）\]]*(feat|ft\.|with|remix|remaster|live|radio edit|acoustic|伴奏|纯音乐|现场|翻自|女版|男版)[^\)）\]]*[\)）\]]'
+    - '(?i)[\s\-]+(feat\.?|ft\.?|with)\s+.+$'
+    - '(?i)\s*-\s*(remaster(ed)?|live|radio edit|acoustic|伴奏|纯音乐|现场|remix|女版|男版).*$'
+  # 多歌手分隔符：只拆分明确的并列写法，避免把 AC/DC、Simon & Garfunkel 这类
+  # 本身就是单个艺人名的写法拆散
+  artist_split_patterns: ['、', '，', ',', ' feat.', ' ft.', ' with ']
+  primary_artist_only: true
+  # 同一歌名下若歌手集合存在交集，视为同一首歌（跨平台歌手署名粒度不同）并合并
+  merge_artist_variants: true
+
+output:
+  dir: output
+  keep_history: true
+  write_snapshot: true
+  snapshot_subdir: raw
+  formats: [kugou_text, json]
+  report_dir: logs
+
+charts:
+  order: [europe, hot, new]
+  labels:
+    europe: 欧洲榜
+    hot: 热歌榜
+    new: 新歌榜
+  slugs:
+    europe: europe
+    hot: hot
+    new: new
+  require_all: true          # 三类歌单均须产出，否则任务失败
+
+platforms:
+  netease:
+    adapter: netease
+    enabled: true
+    weight: 1.0
+    charts:
+      - {chart: hot, label: 网易云音乐热歌榜, params: {playlist_id: 3778678}}
+      - {chart: new, label: 网易云音乐新歌榜, params: {playlist_id: 3779629}}
+      - {chart: europe, label: 网易云音乐欧美热歌榜, params: {playlist_id: 2809513713}}
+
+  qq:
+    adapter: qq
+    enabled: true
+    weight: 1.0
+    charts:
+      - {chart: hot, label: "QQ音乐巅峰榜·热歌", params: {topid: 26}}
+      - {chart: new, label: "QQ音乐巅峰榜·新歌", params: {topid: 27}}
+
+  kugou:
+    adapter: kugou
+    enabled: true
+    weight: 1.0
+    charts:
+      - {chart: hot, label: 酷狗音乐TOP500, params: {rankid: 8888}}
+      - {chart: new, label: 酷狗音乐新歌榜, params: {rankid: 74534}}
+      - {chart: europe, label: 酷狗音乐欧美榜, params: {rankid: 31310}}
+
+  apple:
+    adapter: apple
+    enabled: true
+    weight: 0.9
+    charts:
+      - {chart: hot, label: Apple Music 美国热歌榜, params: {country: us}}
+      - {chart: europe, label: Apple Music 英国热歌榜, params: {country: gb}}
+      - {chart: europe, label: Apple Music 德国热歌榜, params: {country: de}}
+
+  # Billboard 榜单页已改为前端渲染，服务端 HTML 不再包含榜单行，
+  # 适配器已实现但当前无法解析，默认关闭；接入浏览器渲染方案后再启用
+  billboard:
+    adapter: billboard
+    enabled: false
+    weight: 1.1
+    charts:
+      - {chart: hot, label: Billboard Hot 100, params: {chart: hot-100}}
+
+  deezer:
+    adapter: deezer
+    enabled: true
+    weight: 0.9
+    charts:
+      - {chart: hot, label: Deezer 全球热歌榜, params: {genre_id: 0}}
+
+  # 以下平台适配器已实现，但接口需要额外校验，默认关闭，验证通过后在配置中开启
+  kuwo:
+    adapter: kuwo
+    enabled: false
+    weight: 1.0
+    charts:
+      - {chart: hot, label: 酷我音乐热歌榜, params: {bang_id: 93}}
+      - {chart: new, label: 酷我音乐新歌榜, params: {bang_id: 16}}
+      - {chart: europe, label: 酷我音乐欧美榜, params: {bang_id: 76}}
