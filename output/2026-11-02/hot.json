@@ -3,7 +3,7 @@
   "chart_type": "hot",
   "chart_label": "热歌榜",
   "limit": 100,
-  "generated_at": "2026-11-02T12:40:33Z",
+  "generated_at": "2026-11-02T12:49:28Z",
   "source_platforms": [
     "apple",
     "deezer",
@@ -480,6 +480,26 @@
     },
     {
       "rank": 20,
+      "title": "BbY WOW",
+      "artists": [
+        "KAROL G, Judeline & rusowsky"
+      ],
+      "score": 1.9872,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 6
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "rank": 21,
       "title": "Been By Now",
       "artists": [
         "Morgan Wallen"
@@ -499,7 +519,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "Nicole Kidman",
       "artists": [
         "ADÉLA"
@@ -519,7 +539,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Housewife",
       "artists": [
         "Tate McRae"
@@ -539,7 +559,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "演员",
       "artists": [
         "薛之谦"
@@ -564,7 +584,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "You Are All I Need",
       "artists": [
         "FLY COAST",
@@ -585,7 +605,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "泪海",
       "artists": [
         "许茹芸"
@@ -605,7 +625,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "玻璃",
       "artists": [
         "Gareth.T"
@@ -625,7 +645,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "特别的人",
       "artists": [
         "方大同"
@@ -645,7 +665,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "Be Her",
       "artists": [
         "Ella Langley"
@@ -665,7 +685,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "title": "Somebody's Watching Me",
       "artists": [
         "Rockwell"
@@ -690,7 +710,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "title": "stupid song",
       "artists": [
         "Olivia Rodrigo"
@@ -710,7 +730,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "title": "刻在我心底的名字",
       "artists": [
         "卢广仲"
@@ -735,7 +755,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 33,
       "title": "Moonride",
       "artists": [
         "Hearts2Hearts"
@@ -755,7 +775,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 34,
       "title": "红色高跟鞋",
       "artists": [
         "蔡健雅"
@@ -775,7 +795,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 35,
       "title": "Always Online",
       "artists": [
         "林俊杰"
@@ -795,7 +815,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 36,
       "title": "素颜",
       "artists": [
         "许嵩",
@@ -821,7 +841,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 37,
       "title": "茶汤",
       "artists": [
         "郁可唯"
@@ -841,7 +861,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "title": "唯一",
       "artists": [
         "G.E.M.邓紫棋"
@@ -861,7 +881,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 39,
       "title": "我爱你",
       "artists": [
         "王菲"
@@ -881,7 +901,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 40,
       "title": "This Is Halloween",
       "artists": [
         "The Citizens of Halloween"
@@ -901,7 +921,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 41,
       "title": "新·与天齐",
       "artists": [
         "指尖笑"
@@ -921,7 +941,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 42,
       "title": "Whatever Happens",
       "artists": [
         "Michael Jackson"
@@ -941,7 +961,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 43,
       "title": "最佳损友",
       "artists": [
         "陈奕迅"
@@ -966,7 +986,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 44,
       "title": "Don't We",
       "artists": [
         "Morgan Wallen"
@@ -986,7 +1006,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 45,
       "title": "NEON",
       "artists": [
         "A2O LITE",
@@ -1007,7 +1027,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 46,
       "title": "认真的雪",
       "artists": [
         "薛之谦"
@@ -1027,7 +1047,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "title": "你不要那样看着我的眼睛",
       "artists": [
         "蔡琴"
@@ -1047,7 +1067,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 48,
       "title": "Monster Mash",
       "artists": [
         "Bobby \"Boris\" Pickett"
@@ -1067,7 +1087,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "title": "愿与愁",
       "artists": [
         "林俊杰"
@@ -1087,7 +1107,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 50,
       "title": "左转灯 (1000 Times +1)",
       "artists": [
         "派伟俊",
@@ -1108,7 +1128,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 51,
       "title": "海屿你",
       "artists": [
         "马也_Crabbit"
@@ -1123,7 +1143,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 52,
       "title": "坏女孩",
       "artists": [
         "徐良",
@@ -1144,7 +1164,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "title": "说好再见却再也不见 (催泪版)",
       "artists": [
         "迟嘉良"
@@ -1159,7 +1179,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 54,
       "title": "自由的你",
       "artists": [
         "G.E.M.邓紫棋"
@@ -1179,7 +1199,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 55,
       "title": "罗生门（Follow）",
       "artists": [
         "梨冻紧",
@@ -1195,7 +1215,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 56,
       "title": "出现又离开 (Live)",
       "artists": [
         "梁博"
@@ -1220,7 +1240,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 57,
       "title": "如果呢",
       "artists": [
         "郑润泽"
@@ -1235,7 +1255,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 58,
       "title": "其实",
       "artists": [
         "薛之谦"
@@ -1255,7 +1275,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 59,
       "title": "富士山下",
       "artists": [
         "陈奕迅"
@@ -1275,7 +1295,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "title": "多远都要在一起",
       "artists": [
         "G.E.M.邓紫棋"
@@ -1295,7 +1315,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 61,
       "title": "明知故犯",
       "artists": [
         "Max李玄"
@@ -1310,7 +1330,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 62,
       "title": "Thriller",
       "artists": [
         "Michael Jackson"
@@ -1325,7 +1345,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 63,
       "title": "St. James Infirmary",
       "artists": [
         "Cab Calloway"
@@ -1340,7 +1360,7 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 64,
       "title": "99",
       "artists": [
         "TizzyT"
@@ -1355,7 +1375,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 65,
       "title": "无奈的思绪",
       "artists": [
         "嘉慧"
@@ -1370,7 +1390,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 66,
       "title": "Dracula (with JENNIE)",
       "artists": [
         "Tame Impala"
@@ -1385,7 +1405,7 @@
       ]
     },
     {
-      "rank": 66,
+      "rank": 67,
       "title": "黄昏",
       "artists": [
         "周传雄"
@@ -1405,7 +1425,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 68,
       "title": "于是",
       "artists": [
         "郑润泽"
@@ -1420,7 +1440,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 69,
       "title": "若你看见花开",
       "artists": [
         "杨小壮"
@@ -1435,7 +1455,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 70,
       "title": "Boston",
       "artists": [
         "STELLA LEFTY"
@@ -1450,7 +1470,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 71,
       "title": "碎碎念",
       "artists": [
         "队长"
@@ -1465,7 +1485,7 @@
       ]
     },
     {
-      "rank": 71,
+      "rank": 72,
       "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
       "artists": [
         "BESTie (베스티)"
@@ -1480,7 +1500,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 73,
       "title": "不死鸟",
       "artists": [
         "霍尊"
@@ -1495,7 +1515,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 74,
       "title": "Ghostbusters",
       "artists": [
         "Ray Parker Jr."
@@ -1510,7 +1530,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 75,
       "title": "忘不掉的你",
       "artists": [
         "h3R3"
@@ -1525,7 +1545,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 76,
       "title": "嗜好",
       "artists": [
         "颜人中"
@@ -1540,7 +1560,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 77,
       "title": "大漠长明",
       "artists": [
         "指南针"
@@ -1555,7 +1575,7 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 78,
       "title": "Patient Zero",
       "artists": [
         "Taylor Swift"
@@ -1571,21 +1591,6 @@
           "platform": "deezer",
           "label": "Deezer 全球热歌榜",
           "rank": 14
-        }
-      ]
-    },
-    {
-      "rank": 78,
-      "title": "BbY WOW",
-      "artists": [
-        "KAROL G, Judeline & rusowsky"
-      ],
-      "score": 1.026,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 6
         }
       ]
     },
@@ -1829,21 +1834,6 @@
     },
     {
       "rank": 94,
-      "title": "BbY WOW",
-      "artists": [
-        "KAROL G"
-      ],
-      "score": 0.9612,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 12
-        }
-      ]
-    },
-    {
-      "rank": 95,
       "title": "晴天",
       "artists": [
         "周杰伦"
@@ -1863,7 +1853,7 @@
       ]
     },
     {
-      "rank": 96,
+      "rank": 95,
       "title": "过渡期",
       "artists": [
         "小宇-宋念宇"
@@ -1883,7 +1873,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 96,
       "title": "红",
       "artists": [
         "罗言"
@@ -1898,7 +1888,7 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 97,
       "title": "Lies (feat. Lana Del Rey)",
       "artists": [
         "Zach Bryan & Lana Del Rey"
@@ -1913,7 +1903,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 98,
       "title": "The Munsters",
       "artists": [
         "KnightsBridge"
@@ -1928,7 +1918,7 @@
       ]
     },
     {
-      "rank": 100,
+      "rank": 99,
       "title": "我听见了，你的痛苦成立",
       "artists": [
         "供销社乐队"
@@ -1944,6 +1934,21 @@
           "platform": "kugou",
           "label": "酷狗音乐TOP500",
           "rank": 41
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "title": "Quebec",
+      "artists": [
+        "Drake"
+      ],
+      "score": 0.9396,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 14
         }
       ]
     }
