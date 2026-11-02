@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 原始榜单快照体积较大，仅作为运行产物上传，不入库
+output/**/raw/
+
+# 逐源采集明细，仅保留运行摘要入库
+logs/*.jsonl
