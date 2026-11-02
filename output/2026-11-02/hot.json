@@ -3,7 +3,7 @@
   "chart_type": "hot",
   "chart_label": "热歌榜",
   "limit": 100,
-  "generated_at": "2026-11-02T12:49:28Z",
+  "generated_at": "2026-11-02T13:27:38Z",
   "source_platforms": [
     "apple",
     "deezer",
@@ -484,12 +484,12 @@
       "artists": [
         "KAROL G, Judeline & rusowsky"
       ],
-      "score": 1.9872,
+      "score": 1.998,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 6
+          "rank": 5
         },
         {
           "platform": "deezer",
@@ -544,12 +544,12 @@
       "artists": [
         "Tate McRae"
       ],
-      "score": 1.9332,
+      "score": 1.9224,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 5
+          "rank": 6
         },
         {
           "platform": "deezer",
@@ -670,12 +670,12 @@
       "artists": [
         "Ella Langley"
       ],
-      "score": 1.8144,
+      "score": 1.7712,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 29
+          "rank": 33
         },
         {
           "platform": "deezer",
@@ -686,41 +686,16 @@
     },
     {
       "rank": 30,
-      "title": "Somebody's Watching Me",
-      "artists": [
-        "Rockwell"
-      ],
-      "score": 1.782,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 16
-        },
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 37
-        },
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 85
-        }
-      ]
-    },
-    {
-      "rank": 31,
       "title": "stupid song",
       "artists": [
         "Olivia Rodrigo"
       ],
-      "score": 1.728,
+      "score": 1.7388,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 27
+          "rank": 26
         },
         {
           "platform": "deezer",
@@ -730,7 +705,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 31,
       "title": "刻在我心底的名字",
       "artists": [
         "卢广仲"
@@ -755,7 +730,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 32,
       "title": "Moonride",
       "artists": [
         "Hearts2Hearts"
@@ -775,7 +750,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 33,
       "title": "红色高跟鞋",
       "artists": [
         "蔡健雅"
@@ -791,6 +766,31 @@
           "platform": "qq",
           "label": "QQ音乐巅峰榜·热歌",
           "rank": 21
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "title": "Somebody's Watching Me",
+      "artists": [
+        "Rockwell"
+      ],
+      "score": 1.6092,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 19
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 50
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 85
         }
       ]
     },
@@ -991,12 +991,12 @@
       "artists": [
         "Morgan Wallen"
       ],
-      "score": 1.296,
+      "score": 1.3176,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 55
+          "rank": 53
         },
         {
           "platform": "deezer",
@@ -1576,26 +1576,6 @@
     },
     {
       "rank": 78,
-      "title": "Patient Zero",
-      "artists": [
-        "Taylor Swift"
-      ],
-      "score": 1.026,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 93
-        },
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 14
-        }
-      ]
-    },
-    {
-      "rank": 79,
       "title": "我们俩",
       "artists": [
         "郭顶"
@@ -1615,7 +1595,7 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 79,
       "title": "一半一半",
       "artists": [
         "Top Barry",
@@ -1631,7 +1611,7 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 80,
       "title": "Be By You",
       "artists": [
         "Luke Combs"
@@ -1646,7 +1626,7 @@
       ]
     },
     {
-      "rank": 82,
+      "rank": 81,
       "title": "Call your name (Gv)",
       "artists": [
         "澤野弘之",
@@ -1663,7 +1643,7 @@
       ]
     },
     {
-      "rank": 83,
+      "rank": 82,
       "title": "Spooky, Scary Skeletons (Undead Tombstone Remix)",
       "artists": [
         "Andrew Gold"
@@ -1678,7 +1658,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 83,
       "title": "Loving Life Again",
       "artists": [
         "Ella Langley"
@@ -1693,7 +1673,7 @@
       ]
     },
     {
-      "rank": 85,
+      "rank": 84,
       "title": "互删 (我走以后)",
       "artists": [
         "江辰"
@@ -1708,7 +1688,7 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 85,
       "title": "大梦归",
       "artists": [
         "周深"
@@ -1723,7 +1703,7 @@
       ]
     },
     {
-      "rank": 87,
+      "rank": 86,
       "title": "Solar Eclipse",
       "artists": [
         "Drake & Don Toliver"
@@ -1738,7 +1718,7 @@
       ]
     },
     {
-      "rank": 88,
+      "rank": 87,
       "title": "Something To Lose",
       "artists": [
         "STELLA LEFTY"
@@ -1753,7 +1733,7 @@
       ]
     },
     {
-      "rank": 89,
+      "rank": 88,
       "title": "一张相片",
       "artists": [
         "连麻Swimming"
@@ -1768,7 +1748,7 @@
       ]
     },
     {
-      "rank": 90,
+      "rank": 89,
       "title": "Janice STFU",
       "artists": [
         "Drake"
@@ -1783,7 +1763,7 @@
       ]
     },
     {
-      "rank": 91,
+      "rank": 90,
       "title": "Should I Stay or Should I Go (Remastered)",
       "artists": [
         "The Clash"
@@ -1798,7 +1778,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 91,
       "title": "天外来物",
       "artists": [
         "薛之谦"
@@ -1818,7 +1798,7 @@
       ]
     },
     {
-      "rank": 93,
+      "rank": 92,
       "title": "爱错",
       "artists": [
         "王力宏"
@@ -1833,7 +1813,7 @@
       ]
     },
     {
-      "rank": 94,
+      "rank": 93,
       "title": "晴天",
       "artists": [
         "周杰伦"
@@ -1853,7 +1833,7 @@
       ]
     },
     {
-      "rank": 95,
+      "rank": 94,
       "title": "过渡期",
       "artists": [
         "小宇-宋念宇"
@@ -1873,7 +1853,7 @@
       ]
     },
     {
-      "rank": 96,
+      "rank": 95,
       "title": "红",
       "artists": [
         "罗言"
@@ -1888,10 +1868,10 @@
       ]
     },
     {
-      "rank": 97,
-      "title": "Lies (feat. Lana Del Rey)",
+      "rank": 96,
+      "title": "In A Minute",
       "artists": [
-        "Zach Bryan & Lana Del Rey"
+        "Lil Baby"
       ],
       "score": 0.9504,
       "appearances": [
@@ -1903,7 +1883,7 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 97,
       "title": "The Munsters",
       "artists": [
         "KnightsBridge"
@@ -1918,7 +1898,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 98,
       "title": "我听见了，你的痛苦成立",
       "artists": [
         "供销社乐队"
@@ -1938,16 +1918,31 @@
       ]
     },
     {
-      "rank": 100,
-      "title": "Quebec",
+      "rank": 99,
+      "title": "Freestyle",
       "artists": [
-        "Drake"
+        "Lil Baby"
       ],
       "score": 0.9396,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "title": "Patient Zero",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "score": 0.9396,
+      "appearances": [
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
           "rank": 14
         }
       ]
