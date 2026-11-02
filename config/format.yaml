@@ -1,0 +1,54 @@
+# ============================================================
+# 输出格式配置
+# 说明：酷狗音乐歌单文件为 .kgl（XML 结构），客户端通过「导入列表」导入。
+# 字段、编码与分隔符全部可配置；未在酷狗客户端实测导入前 verified 保持 false。
+# ============================================================
+
+# 主输出：酷狗音乐歌单文件（.kgl）
+kugou_kgl:
+  verified: false
+
+  # 酷狗原生导出为本地 ANSI（中文即 GBK），声明行仍写 windows-1252；
+  # 目标编码无法表示的字符按 encoding_errors 处理
+  encoding: gbk
+  encoding_errors: xmlcharrefreplace
+  bom: false
+  line_ending: "\r\n"
+
+  xml_declaration: '<?xml version="1.0" encoding="windows-1252"?>'
+  list_name_template: "{label} TOP{limit}"
+
+  # FileName 字段内容，待实测：酷狗原生为「歌手 - 歌名」，也可改为 "{artist}-{title}"
+  filename_template: "{artist} - {title}"
+  artist_separator: "/"
+
+  # 是否输出完整的 File 字段（酷狗原生导出包含下列字段）
+  include_full_fields: true
+  file_template: '<File><FilePath>E:\</FilePath><FileSize>0</FileSize><Duration>0</Duration><Hash>0</Hash><Lyric>E:\</Lyric><BitRate>192</BitRate><MediaFileType>0</MediaFileType><FileName>{filename}</FileName></File>'
+
+  extension: .kgl
+  filename_pattern: "{slug}_top{limit}"
+  max_lines: 100
+
+# 辅助输出：纯文本歌单，便于人工核对或改用其他平台支持的格式
+kugou_text:
+  verified: false
+
+  encoding: utf-8
+  bom: false
+  line_ending: "\n"
+
+  field_order: [title, artist]
+  separator: " - "
+  artist_separator: "/"
+  line_prefix: ""
+  header: ""
+  footer: ""
+
+  extension: .txt
+  filename_pattern: "{slug}_top{limit}"
+  max_lines: 100
+
+json_record:
+  indent: 2
+  ensure_ascii: false
