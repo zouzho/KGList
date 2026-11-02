@@ -1,0 +1,28 @@
+# ============================================================
+# 输出格式配置
+# 说明：酷狗音乐歌单导入文件的官方格式说明未公开，
+# 下列参数全部可配置，需用真实客户端导入验证后据实修正。
+# ============================================================
+
+kugou_text:
+  # 是否已用酷狗音乐客户端实际导入验证过；验证通过后改为 true
+  verified: false
+
+  encoding: utf-8            # 输出编码
+  bom: false                 # 是否写入字节顺序标记
+  line_ending: "\n"          # 待实测：若导入要求 CRLF，改为 "\r\n"
+
+  field_order: [title, artist]   # 每行字段顺序
+  separator: " - "              # 字段间分隔符
+  artist_separator: "/"         # 多歌手连接符
+  line_prefix: ""               # 待实测：如需序号前缀可设为 "{rank}. "
+  header: ""                    # 文件头（保持为空表示不写表头）
+  footer: ""                    # 文件尾
+
+  extension: .txt
+  filename_pattern: "{slug}_top{limit}"
+  max_lines: 100
+
+json_record:
+  indent: 2
+  ensure_ascii: false
