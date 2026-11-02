@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的第一个网页</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KGL歌单下载</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,sans-serif}
+body{min-height:100vh;background:#1a1a2e;color:#fff;display:flex;align-items:center;justify-content:center;padding:20px}
+.card{background:#16213e;padding:32px;border-radius:16px;text-align:center;max-width:480px;width:100%;box-shadow:0 8px 30px #0004}
+h1{font-size:24px;margin-bottom:12px}
+.tip{color:#b0c4de;margin-bottom:24px;line-height:1.6}
+.dl-btn{display:inline-block;padding:14px 28px;background:#00a8ff;color:#fff;border-radius:10px;text-decoration:none;font-weight:bold;font-size:17px;transition:0.2s}
+.dl-btn:hover{background:#0088d1}
+.note{margin-top:24px;text-align:left;background:#0f172a;padding:16px;border-radius:10px;color:#cad5e4;font-size:14px;line-height:1.7}
+</style>
 </head>
 <body>
-  
-    <p style="text-align: center;">这是我的kglist源页面</p>
-  
+<div class="card">
+    <h1>🎵 欧洲榜 TOP100 KGL歌单</h1>
+    <div class="tip">酷狗PC / 安卓酷狗导入歌单文件</div>
+    <a href="./gd.kgl" download="gd.kgl" class="dl-btn">📥 下载 gd.kgl</a>
+    <div class="note">
+        <b>导入说明：</b><br>
+        1. 点击按钮下载 gd.kgl 文件<br>
+        2. 电脑酷狗：播放列表 → 导入列表文件，选中本文件<br>
+        3. 安卓酷狗：自建歌单 → 导入，选择本地kgl<br>
+        ⚠️ 酷狗APP<strong>不能直接填网址导入</strong>，必须下载本地文件<br>
+        ⚠️ 歌曲匹配依靠 Hash 值，Hash=0 仅显示歌名，无法播放
+    </div>
+</div>
 </body>
 </html>
