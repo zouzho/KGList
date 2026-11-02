@@ -1,0 +1,1706 @@
+{
+  "week": "2026-11-02",
+  "chart_type": "new",
+  "chart_label": "新歌榜",
+  "limit": 100,
+  "generated_at": "2026-11-02T12:23:51Z",
+  "source_platforms": [
+    "kugou",
+    "netease",
+    "qq"
+  ],
+  "item_count": 100,
+  "items": [
+    {
+      "rank": 1,
+      "title": "Hong Kong (feat. 王菲季候风)",
+      "artists": [
+        "The Weeknd"
+      ],
+      "score": 2.392,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 1
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 1
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "隔岸 (女版)",
+      "artists": [
+        "可楼"
+      ],
+      "score": 2.336,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 4
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 3
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "自由的你",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "score": 1.536,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 7
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "后来的我和你",
+      "artists": [
+        "高冷"
+      ],
+      "score": 1.368,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 22
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "面目全非",
+      "artists": [
+        "张远"
+      ],
+      "score": 1.36,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 92
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 36
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "今夜让我带你高飞远走",
+      "artists": [
+        "五月天 阿信",
+        "言承旭",
+        "吴建豪",
+        "周渝民"
+      ],
+      "score": 1.344,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 5
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 29
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Cherry Candy",
+      "artists": [
+        "Lunak"
+      ],
+      "score": 1.304,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 9
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "当世界年纪小",
+      "artists": [
+        "任素汐"
+      ],
+      "score": 1.272,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 6
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 37
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "若你看见花开",
+      "artists": [
+        "杨小壮"
+      ],
+      "score": 1.264,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 25
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "秋风一吹又老一岁",
+      "artists": [
+        "周深深"
+      ],
+      "score": 1.264,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 24
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "山海不说话（我路过山 山不说话）",
+      "artists": [
+        "陳鴨梨Charlie"
+      ],
+      "score": 1.216,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 33
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "大漠长明",
+      "artists": [
+        "指南针"
+      ],
+      "score": 1.16,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 43
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "title": "自己的灯自己点",
+      "artists": [
+        "尤映冬"
+      ],
+      "score": 1.112,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 42
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "title": "有你爱就明媚",
+      "artists": [
+        "Fozik佛子克"
+      ],
+      "score": 1.112,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 35
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 28
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "title": "荒",
+      "artists": [
+        "平生不晚"
+      ],
+      "score": 1.08,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 32
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 35
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "title": "不能成情人",
+      "artists": [
+        "鱼蛋"
+      ],
+      "score": 0.944,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 51
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 33
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "title": "Housewife",
+      "artists": [
+        "Tate McRae"
+      ],
+      "score": 0.936,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 29
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 56
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "title": "一身傲骨不认输 (深情版)",
+      "artists": [
+        "兴俊拔"
+      ],
+      "score": 0.904,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 38
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 51
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "title": "路过你的城市 (车窗外的天)",
+      "artists": [
+        "米奇老虎"
+      ],
+      "score": 0.872,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 45
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 48
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "title": "山那头 (风刮着原上柳)",
+      "artists": [
+        "杨小东"
+      ],
+      "score": 0.864,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 87
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "title": "秋风一吹又老一岁",
+      "artists": [
+        "洋澜一"
+      ],
+      "score": 0.832,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 76
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "title": "渡口",
+      "artists": [
+        "张杰"
+      ],
+      "score": 0.816,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 43
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 57
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "title": "说好再见却再也不见 (催泪版)",
+      "artists": [
+        "迟嘉良"
+      ],
+      "score": 0.8,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "title": "一张相片",
+      "artists": [
+        "连麻Swimming"
+      ],
+      "score": 0.792,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "title": "NEON",
+      "artists": [
+        "A2O LITE",
+        "A2O"
+      ],
+      "score": 0.792,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "title": "无 意",
+      "artists": [
+        "加木",
+        "Demxntia"
+      ],
+      "score": 0.784,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "title": "SUPERSTAR",
+      "artists": [
+        "A2O SOUL",
+        "A2O"
+      ],
+      "score": 0.776,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "title": "故乡的炊烟",
+      "artists": [
+        "天津李四",
+        "李佳燃"
+      ],
+      "score": 0.768,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 44
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 62
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "title": "宝船",
+      "artists": [
+        "DOUDOU",
+        "燕云十六声"
+      ],
+      "score": 0.768,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "title": "撒哈拉的暴雨",
+      "artists": [
+        "连麻Swimming"
+      ],
+      "score": 0.76,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "title": "山风山风等等我 (国粤合唱版)",
+      "artists": [
+        "万海东",
+        "老韩很哇塞",
+        "励志豪"
+      ],
+      "score": 0.76,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "title": "世纪传说",
+      "artists": [
+        "苏醒AllenSu"
+      ],
+      "score": 0.752,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "title": "茉茉",
+      "artists": [
+        "Nzwin 黄跃成"
+      ],
+      "score": 0.744,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "title": "DESERVE",
+      "artists": [
+        "BABYMONSTER (베이비몬스터)"
+      ],
+      "score": 0.744,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "title": "季候风",
+      "artists": [
+        "王菲"
+      ],
+      "score": 0.744,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "title": "天还是阴",
+      "artists": [
+        "Fozik佛子克"
+      ],
+      "score": 0.736,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 38
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 72
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "title": "You're Under Arrest",
+      "artists": [
+        "ILLIT (아일릿)"
+      ],
+      "score": 0.736,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "title": "Undefined",
+      "artists": [
+        "PerVade",
+        "第五人格"
+      ],
+      "score": 0.728,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "title": "月下签",
+      "artists": [
+        "蒲熠星"
+      ],
+      "score": 0.728,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "title": "我是沙漠中的野草",
+      "artists": [
+        "念小婶"
+      ],
+      "score": 0.728,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "title": "风吹过",
+      "artists": [
+        "张玮"
+      ],
+      "score": 0.72,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 29
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 83
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "title": "Montagem Nada Funk",
+      "artists": [
+        "Trispect"
+      ],
+      "score": 0.72,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "title": "其实雨也没多大",
+      "artists": [
+        "正在进行石女士"
+      ],
+      "score": 0.72,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "title": "不能陪你只能惦记 (深情版)",
+      "artists": [
+        "白素沉"
+      ],
+      "score": 0.72,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "title": "刻在我心底的名字",
+      "artists": [
+        "陈默之"
+      ],
+      "score": 0.712,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "title": "牵挂",
+      "artists": [
+        "曾沛慈"
+      ],
+      "score": 0.712,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "title": "青灯照见梦中人",
+      "artists": [
+        "陈瑞"
+      ],
+      "score": 0.712,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "title": "Grey trails live on",
+      "artists": [
+        "Dirk",
+        "Echo"
+      ],
+      "score": 0.704,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "title": "Bad Boy Club",
+      "artists": [
+        "刘宇"
+      ],
+      "score": 0.704,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "title": "我听人说思念像风一样 (难舍难分难解说唱版)",
+      "artists": [
+        "雪山阿木",
+        "7past"
+      ],
+      "score": 0.704,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "title": "FIRESTARTER",
+      "artists": [
+        "K/DA",
+        "英雄联盟",
+        "i-dle",
+        "Mimi Webb",
+        "Sophie Powers",
+        "曺薇娟",
+        "田小娟"
+      ],
+      "score": 0.696,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "title": "小城",
+      "artists": [
+        "任素汐"
+      ],
+      "score": 0.696,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "title": "你的不经意",
+      "artists": [
+        "Fozik佛子克"
+      ],
+      "score": 0.688,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "title": "Dear my crazy soulmate",
+      "artists": [
+        "IU (아이유)"
+      ],
+      "score": 0.688,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "title": "多少真心败给无奈",
+      "artists": [
+        "米拓果果"
+      ],
+      "score": 0.688,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "title": "轻轻",
+      "artists": [
+        "肖战"
+      ],
+      "score": 0.68,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 90
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "title": "何必相逢",
+      "artists": [
+        "李雨霏_晚饭"
+      ],
+      "score": 0.68,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "title": "Insomnia",
+      "artists": [
+        "RIIZE (라이즈)"
+      ],
+      "score": 0.68,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "title": "我在风中点了一根烟",
+      "artists": [
+        "风里微醺"
+      ],
+      "score": 0.68,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "title": "眼泪比爱深刻",
+      "artists": [
+        "moli"
+      ],
+      "score": 0.672,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "title": "罗生门 (氛围版)",
+      "artists": [
+        "摩卡"
+      ],
+      "score": 0.672,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "title": "1% Battery Girl 低电量女孩",
+      "artists": [
+        "ChiliChill乐团",
+        "三Z-STUDIO",
+        "HOYO-MiX"
+      ],
+      "score": 0.664,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "title": "那女孩对我说",
+      "artists": [
+        "赵乃吉"
+      ],
+      "score": 0.664,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "title": "屿你",
+      "artists": [
+        "翔屿",
+        "听潮阁"
+      ],
+      "score": 0.664,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "title": "降温",
+      "artists": [
+        "Zzh"
+      ],
+      "score": 0.656,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "title": "无字句尾",
+      "artists": [
+        "鹭卓"
+      ],
+      "score": 0.656,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "title": "年轻人的一生（Intro）",
+      "artists": [
+        "法老"
+      ],
+      "score": 0.648,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "title": "时间会回答",
+      "artists": [
+        "七元"
+      ],
+      "score": 0.648,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "title": "Call your name (DeepHouse)",
+      "artists": [
+        "诅咒之翼·Cursewing"
+      ],
+      "score": 0.64,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "title": "也会有人代替你",
+      "artists": [
+        "供销社乐队"
+      ],
+      "score": 0.64,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "title": "和你有关这一生",
+      "artists": [
+        "幸卓辉",
+        "章明伯"
+      ],
+      "score": 0.632,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "title": "kiss kiss（拥吻）",
+      "artists": [
+        "三棱镜"
+      ],
+      "score": 0.624,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "title": "戒断 (BAD HABITS TONITE)",
+      "artists": [
+        "A2O MAY",
+        "A2O"
+      ],
+      "score": 0.624,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "title": "一个人习惯了冷清 (抒情版)",
+      "artists": [
+        "无弘毅"
+      ],
+      "score": 0.624,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "title": "双",
+      "artists": [
+        "连麻Swimming"
+      ],
+      "score": 0.616,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "title": "用心爱你却留不住你 (深情版)",
+      "artists": [
+        "林汝琴"
+      ],
+      "score": 0.616,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "title": "Fever Pitch",
+      "artists": [
+        "灰蒙蒙",
+        "VOLT"
+      ],
+      "score": 0.608,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 25
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "title": "又是秋风想你时",
+      "artists": [
+        "丁小婉"
+      ],
+      "score": 0.608,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 25
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "title": "Pharaoh Is Like",
+      "artists": [
+        "法老"
+      ],
+      "score": 0.6,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 26
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "title": "外面的世界",
+      "artists": [
+        "半吨兄弟"
+      ],
+      "score": 0.6,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 26
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "title": "拜过菩萨问过签 (现场版)",
+      "artists": [
+        "音萌萌"
+      ],
+      "score": 0.6,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 26
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "title": "Gasolina (Slap House)",
+      "artists": [
+        "诅咒之翼·Cursewing"
+      ],
+      "score": 0.592,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "title": "受过的伤怎么才能遗忘 (我曾以为时间能帮我忘)",
+      "artists": [
+        "小玉儿音乐"
+      ],
+      "score": 0.592,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "title": "I'M A BLACKHOLE",
+      "artists": [
+        "Odetari"
+      ],
+      "score": 0.584,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 28
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "title": "从此心里只有你",
+      "artists": [
+        "莫愁姐姐",
+        "赫铭"
+      ],
+      "score": 0.584,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 28
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "title": "骰子人生",
+      "artists": [
+        "Spylent"
+      ],
+      "score": 0.568,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "title": "我好想见你一面",
+      "artists": [
+        "沧桑老默"
+      ],
+      "score": 0.568,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "title": "心湖",
+      "artists": [
+        "张靓颖"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 54
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 78
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "title": "我还在树下等一个人",
+      "artists": [
+        "陆虎"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 67
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 65
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "title": "再见黑怕",
+      "artists": [
+        "法老",
+        "泠风"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "title": "一颗糖的勇气",
+      "artists": [
+        "于梓贝",
+        "RiboDiary"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "rank": 92,
+      "title": "人生一晃又一秋 (前世不欠 今生不见)",
+      "artists": [
+        "雪山阿木"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "rank": 93,
+      "title": "霏儿",
+      "artists": [
+        "李雨霏_晚饭"
+      ],
+      "score": 0.552,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 32
+        }
+      ]
+    },
+    {
+      "rank": 94,
+      "title": "在你的世界迷路 (抒情版)",
+      "artists": [
+        "糖晓晓"
+      ],
+      "score": 0.552,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 32
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "title": "无尽冬",
+      "artists": [
+        "周深"
+      ],
+      "score": 0.544,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 33
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "title": "A Necessary Message",
+      "artists": [
+        "塞壬唱片-MSR",
+        "Chapters",
+        "Ben Hicks",
+        "Sofia Silvestri"
+      ],
+      "score": 0.536,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 34
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "title": "Pop",
+      "artists": [
+        "ILLIT (아일릿)"
+      ],
+      "score": 0.536,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 34
+        }
+      ]
+    },
+    {
+      "rank": 98,
+      "title": "为你买醉为你心碎",
+      "artists": [
+        "王铁辉"
+      ],
+      "score": 0.536,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 34
+        }
+      ]
+    },
+    {
+      "rank": 99,
+      "title": "最难得",
+      "artists": [
+        "单依纯"
+      ],
+      "score": 0.528,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 87
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 49
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "title": "Baby's Horizon",
+      "artists": [
+        "TF家族-张函瑞"
+      ],
+      "score": 0.528,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 35
+        }
+      ]
+    }
+  ]
+}
