@@ -3,7 +3,7 @@
   "chart_type": "new",
   "chart_label": "新歌榜",
   "limit": 100,
-  "generated_at": "2026-11-03T03:54:19Z",
+  "generated_at": "2026-11-03T04:07:15Z",
   "source_platforms": [
     "kugou",
     "netease",
@@ -88,6 +88,31 @@
     },
     {
       "rank": 4,
+      "title": "面目全非",
+      "artists": [
+        "张远"
+      ],
+      "score": 1.456,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 86
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 33
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
       "title": "后来的我和你",
       "artists": [
         "高冷"
@@ -103,31 +128,6 @@
           "platform": "kugou",
           "label": "酷狗音乐新歌榜",
           "rank": 7
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "面目全非",
-      "artists": [
-        "张远"
-      ],
-      "score": 1.448,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐新歌榜",
-          "rank": 87
-        },
-        {
-          "platform": "qq",
-          "label": "QQ音乐巅峰榜·新歌",
-          "rank": 33
-        },
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐新歌榜",
-          "rank": 2
         }
       ]
     },
