@@ -4,7 +4,7 @@ import time
 import json
 import requests
 import xml.etree.ElementTree as ET
-import bs4
+from lxml import html, etree
 
 # -------------------------- 配置区 --------------------------
 SEARCH_API = "https://api.lolimi.cn/API/kgmusic/search.php"
@@ -91,18 +91,18 @@ def main():
     with open(out_file_path, "r", encoding="utf-8") as f:
         html_content = f.read()
 
-        soup = bs4.BeautifulSoup(html_content,'html.parser')
+        tree = html.fromstring(html_content)
 
-        ul_element = soup.find('ul', id='mylist')
+        ul_element = tree.xpath('//ul[@id="mylist"]')[0]
         ul_element.clear()
 
         for line in song_lines:
-            li_element = soup.new_tag('li')
+            li_element = etree.new_tag('li')
             li_element.string = line
             ul_element.append(li_element)
 
     with open(out_file_path, "w", encoding="utf-8") as f:
-        f.write(str(soup))
+        f.write(etree.tostring(tree, encoding='unicode'))
 
     print(f"\n✅ 合并完成！一共 {len(song_lines)} 条歌曲记录")
     print(f"输出：{out_file_path}")
