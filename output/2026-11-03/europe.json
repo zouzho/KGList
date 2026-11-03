@@ -3,7 +3,7 @@
   "chart_type": "europe",
   "chart_label": "欧洲榜",
   "limit": 100,
-  "generated_at": "2026-11-03T06:09:09Z",
+  "generated_at": "2026-11-03T06:20:00Z",
   "source_platforms": [
     "apple",
     "kugou",
@@ -13,11 +13,91 @@
   "items": [
     {
       "rank": 1,
+      "title": "Housewife",
+      "artists": [
+        "Tate McRae"
+      ],
+      "score": 2.931,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐欧美热歌榜",
+          "rank": 30
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐欧美榜",
+          "rank": 58
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 2
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Patient Zero",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "score": 2.573,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐欧美榜",
+          "rank": 3
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 16
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Nicole Kidman",
+      "artists": [
+        "ADÉLA"
+      ],
+      "score": 2.403,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐欧美热歌榜",
+          "rank": 20
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 12
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "rank": 4,
       "title": "Training Season",
       "artists": [
         "Dua Lipa"
       ],
-      "score": 2.109,
+      "score": 2.1,
       "appearances": [
         {
           "platform": "netease",
@@ -37,68 +117,53 @@
         {
           "platform": "apple",
           "label": "Apple Music 德国热歌榜",
-          "rank": 40
+          "rank": 41
         }
       ]
     },
     {
-      "rank": 2,
-      "title": "Housewife",
+      "rank": 5,
+      "title": "hate that i made you love me",
       "artists": [
-        "Tate McRae"
+        "Ariana Grande"
       ],
-      "score": 2.04,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 30
-        },
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 58
-        },
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "Patient Zero",
-      "artists": [
-        "Taylor Swift"
-      ],
-      "score": 1.817,
+      "score": 2.004,
       "appearances": [
         {
           "platform": "kugou",
           "label": "酷狗音乐欧美榜",
-          "rank": 3
+          "rank": 5
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 35
         },
         {
           "platform": "apple",
           "label": "Apple Music 德国热歌榜",
-          "rank": 8
+          "rank": 51
         }
       ]
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Beauty And A Beat",
       "artists": [
         "Justin Bieber",
         "Nicki Minaj"
       ],
-      "score": 1.666,
+      "score": 1.963,
       "appearances": [
         {
           "platform": "netease",
           "label": "网易云音乐欧美热歌榜",
           "rank": 10
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 68
         },
         {
           "platform": "apple",
@@ -108,7 +173,97 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 7,
+      "title": "stupid song",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "score": 1.857,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐欧美榜",
+          "rank": 53
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 10
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 39
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Ain't In LA",
+      "artists": [
+        "ADÉLA"
+      ],
+      "score": 1.79,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐欧美热歌榜",
+          "rank": 75
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 25
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Stop The Wedding!",
+      "artists": [
+        "Ashe"
+      ],
+      "score": 1.764,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 3
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Movin' To The Sun",
+      "artists": [
+        "HUGEL, Imael Angel & Ultra Naté"
+      ],
+      "score": 1.746,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 6
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rank": 11,
       "title": "Animal",
       "artists": [
         "KATSEYE"
@@ -128,7 +283,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 12,
       "title": "time machine (feat. aren park)",
       "artists": [
         "mj apanay",
@@ -149,47 +304,87 @@
       ]
     },
     {
-      "rank": 7,
-      "title": "Nicole Kidman",
+      "rank": 13,
+      "title": "Mr. Brightside",
       "artists": [
-        "ADÉLA"
+        "The Killers"
       ],
-      "score": 1.602,
+      "score": 1.575,
       "appearances": [
         {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 20
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 22
         },
         {
           "platform": "apple",
           "label": "Apple Music 德国热歌榜",
-          "rank": 13
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "hate that i made you love me",
-      "artists": [
-        "Ariana Grande"
-      ],
-      "score": 1.41,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
           "rank": 5
-        },
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 51
         }
       ]
     },
     {
-      "rank": 9,
+      "rank": 14,
+      "title": "the cure",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "score": 1.557,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 13
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "title": "Thriller",
+      "artists": [
+        "Michael Jackson"
+      ],
+      "score": 1.494,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 17
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "title": "Dai Dai",
+      "artists": [
+        "Shakira & Burna Boy"
+      ],
+      "score": 1.476,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 27
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 17,
       "title": "We Don't Talk Anymore (Mr. Collipark Remix)",
       "artists": [
         "Charlie Puth",
@@ -211,7 +406,67 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 18,
+      "title": "Ordinary",
+      "artists": [
+        "Alex Warren"
+      ],
+      "score": 1.368,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 18
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 32
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "title": "Shotta's.",
+      "artists": [
+        "Season 25"
+      ],
+      "score": 1.332,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 40
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "title": "The Fate of Ophelia",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "score": 1.314,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 36
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "rank": 21,
       "title": "Never Too Far / Hero (Medley)",
       "artists": [
         "Mariah Carey"
@@ -231,7 +486,27 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 22,
+      "title": "Wonderwall (Remastered)",
+      "artists": [
+        "Oasis"
+      ],
+      "score": 1.215,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 30
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 37
+        }
+      ]
+    },
+    {
+      "rank": 23,
       "title": "Whatever Happens",
       "artists": [
         "Michael Jackson"
@@ -251,47 +526,197 @@
       ]
     },
     {
-      "rank": 12,
-      "title": "Ain't In LA",
+      "rank": 24,
+      "title": "My Body Isn't Ready",
       "artists": [
-        "ADÉLA"
+        "sombr"
       ],
-      "score": 1.088,
+      "score": 1.161,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 11
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 62
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "title": "Billie Jean",
+      "artists": [
+        "Michael Jackson"
+      ],
+      "score": 1.143,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 45
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "title": "Iris",
+      "artists": [
+        "The Goo Goo Dolls"
+      ],
+      "score": 1.116,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 28
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 50
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "title": "Just Give Me a Reason (feat. Nate Ruess)",
+      "artists": [
+        "P!nk"
+      ],
+      "score": 1.092,
       "appearances": [
         {
           "platform": "netease",
           "label": "网易云音乐欧美热歌榜",
-          "rank": 75
+          "rank": 98
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 69
         },
         {
           "platform": "apple",
           "label": "Apple Music 德国热歌榜",
-          "rank": 9
+          "rank": 15
         }
       ]
     },
     {
-      "rank": 13,
-      "title": "stupid song",
+      "rank": 28,
+      "title": "American Girls",
       "artists": [
-        "Olivia Rodrigo"
+        "Harry Styles"
       ],
-      "score": 1.02,
+      "score": 1.089,
       "appearances": [
         {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 53
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 46
         },
         {
           "platform": "apple",
           "label": "Apple Music 德国热歌榜",
-          "rank": 41
+          "rank": 35
         }
       ]
     },
     {
-      "rank": 14,
+      "rank": 29,
+      "title": "Man I Need",
+      "artists": [
+        "Olivia Dean"
+      ],
+      "score": 1.08,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 7
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 75
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "title": "Lush Life",
+      "artists": [
+        "Zara Larsson"
+      ],
+      "score": 1.062,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 66
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "title": "Shape of You",
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "score": 1.059,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐欧美热歌榜",
+          "rank": 59
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 73
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 58
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "title": "expectations",
+      "artists": [
+        "Olivia Rodrigo & Chappell Roan"
+      ],
+      "score": 1.044,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 19
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 67
+        }
+      ]
+    },
+    {
+      "rank": 33,
       "title": "FIRESTARTER",
       "artists": [
         "K/DA",
@@ -312,7 +737,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 34,
       "title": "The Christmas Song",
       "artists": [
         "Walk off the Earth"
@@ -327,7 +752,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 35,
       "title": "Follow Me",
       "artists": [
         "Alec Benjamin"
@@ -347,7 +772,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 36,
       "title": "On This Christmas (It Only Gets Better)",
       "artists": [
         "Sufjan Stevens"
@@ -362,7 +787,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 37,
       "title": "unhappy",
       "artists": [
         "s0rrow"
@@ -377,7 +802,27 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 38,
+      "title": "Blinding Lights",
+      "artists": [
+        "The Weeknd"
+      ],
+      "score": 0.972,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 48
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 46
+        }
+      ]
+    },
+    {
+      "rank": 39,
       "title": "Where I've Been",
       "artists": [
         "POODEE"
@@ -392,7 +837,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 40,
       "title": "One Of The Girls",
       "artists": [
         "The Weeknd",
@@ -409,7 +854,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 41,
       "title": "The Way I Still Love You",
       "artists": [
         "Reynard Silva"
@@ -424,7 +869,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 42,
       "title": "Love Me",
       "artists": [
         "JMSN"
@@ -439,7 +884,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 43,
       "title": "Snow in San Diego",
       "artists": [
         "Jason Mraz"
@@ -454,7 +899,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 44,
       "title": "Call You Tonight",
       "artists": [
         "Whitney Houston"
@@ -469,7 +914,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 45,
       "title": "Die For You",
       "artists": [
         "The Weeknd"
@@ -484,7 +929,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 46,
       "title": "Next Plane Out",
       "artists": [
         "Daya"
@@ -499,7 +944,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 47,
       "title": "KIDS",
       "artists": [
         "Ann Winsborn"
@@ -514,7 +959,42 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 48,
+      "title": "Babydoll",
+      "artists": [
+        "Jamie Miller"
+      ],
+      "score": 0.9,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "title": "Great Expectation",
+      "artists": [
+        "SIENNA SPIRO"
+      ],
+      "score": 0.9,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 4
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 98
+        }
+      ]
+    },
+    {
+      "rank": 50,
       "title": "Lonely",
       "artists": [
         "Nana"
@@ -529,7 +1009,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 51,
       "title": "Tom and Jerry",
       "artists": [
         "John Mayer"
@@ -544,22 +1024,7 @@
       ]
     },
     {
-      "rank": 30,
-      "title": "Movin' To The Sun",
-      "artists": [
-        "HUGEL, Imael Angel & Ultra Naté"
-      ],
-      "score": 0.891,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "rank": 31,
+      "rank": 52,
       "title": "After Hours",
       "artists": [
         "The Weeknd"
@@ -574,7 +1039,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 53,
       "title": "Sequel (Explicit)",
       "artists": [
         "Fly By Midnight"
@@ -589,22 +1054,27 @@
       ]
     },
     {
-      "rank": 33,
-      "title": "Stop The Wedding!",
+      "rank": 54,
+      "title": "New Religion",
       "artists": [
-        "Ashe"
+        "Bebe Rexha & Faithless"
       ],
       "score": 0.882,
       "appearances": [
         {
           "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 77
+        },
+        {
+          "platform": "apple",
           "label": "Apple Music 德国热歌榜",
-          "rank": 3
+          "rank": 27
         }
       ]
     },
     {
-      "rank": 34,
+      "rank": 55,
       "title": "Money!",
       "artists": [
         "Jason Mraz"
@@ -619,7 +1089,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 56,
       "title": "Für immer",
       "artists": [
         "AYLIVA"
@@ -634,7 +1104,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 57,
       "title": "7 Years",
       "artists": [
         "Lukas Graham"
@@ -649,7 +1119,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 58,
       "title": "My Bad",
       "artists": [
         "salem ilese"
@@ -664,22 +1134,22 @@
       ]
     },
     {
-      "rank": 38,
-      "title": "Mr. Brightside",
+      "rank": 59,
+      "title": "Rein Me In",
       "artists": [
-        "The Killers"
+        "Sam Fender & Olivia Dean"
       ],
       "score": 0.864,
       "appearances": [
         {
           "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
+          "label": "Apple Music 英国热歌榜",
           "rank": 5
         }
       ]
     },
     {
-      "rank": 39,
+      "rank": 60,
       "title": "Alive",
       "artists": [
         "Blue"
@@ -694,7 +1164,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 61,
       "title": "low and behold (Explicit)",
       "artists": [
         "mixed matches"
@@ -709,7 +1179,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 62,
       "title": "BbY WOW",
       "artists": [
         "KAROL G, Judeline & rusowsky"
@@ -724,7 +1194,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 63,
       "title": "MISS ME",
       "artists": [
         "keshi"
@@ -739,7 +1209,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 64,
       "title": "Every Little Reason",
       "artists": [
         "EuroMartina"
@@ -754,22 +1224,7 @@
       ]
     },
     {
-      "rank": 44,
-      "title": "PROPAGANDA",
-      "artists": [
-        "Sido & Fler"
-      ],
-      "score": 0.846,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 7
-        }
-      ]
-    },
-    {
-      "rank": 45,
+      "rank": 65,
       "title": "My Love Mine All Mine",
       "artists": [
         "Mitski"
@@ -784,7 +1239,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 66,
       "title": "Ten",
       "artists": [
         "Connor Price",
@@ -800,7 +1255,57 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 67,
+      "title": "Choosin' Texas",
+      "artists": [
+        "Ella Langley"
+      ],
+      "score": 0.837,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "title": "PROPAGANDA",
+      "artists": [
+        "Sido & Fler"
+      ],
+      "score": 0.837,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "title": "Here You Come, There You Go",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "score": 0.834,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐欧美榜",
+          "rank": 32
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 85
+        }
+      ]
+    },
+    {
+      "rank": 70,
       "title": "Una Mattina",
       "artists": [
         "Papa Tin"
@@ -815,7 +1320,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 71,
       "title": "GET UP!",
       "artists": [
         "K-391"
@@ -830,7 +1335,22 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 72,
+      "title": "Babydoll",
+      "artists": [
+        "Jamie Miller & Antonio Cipriano"
+      ],
+      "score": 0.828,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rank": 73,
       "title": "Creepin' up on You",
       "artists": [
         "Darren Hayes"
@@ -845,7 +1365,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 74,
       "title": "Dare You To Love",
       "artists": [
         "Steve Aoki",
@@ -861,7 +1381,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 75,
       "title": "ISSA",
       "artists": [
         "Sido"
@@ -876,22 +1396,7 @@
       ]
     },
     {
-      "rank": 52,
-      "title": "Dai Dai",
-      "artists": [
-        "Shakira & Burna Boy"
-      ],
-      "score": 0.81,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 11
-        }
-      ]
-    },
-    {
-      "rank": 53,
+      "rank": 76,
       "title": "Pink Clouding",
       "artists": [
         "Taylor Swift"
@@ -906,47 +1411,7 @@
       ]
     },
     {
-      "rank": 54,
-      "title": "Shape of You",
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "score": 0.807,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 59
-        },
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 58
-        }
-      ]
-    },
-    {
-      "rank": 55,
-      "title": "Just Give Me a Reason",
-      "artists": [
-        "P!nk"
-      ],
-      "score": 0.804,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 98
-        },
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 15
-        }
-      ]
-    },
-    {
-      "rank": 56,
+      "rank": 77,
       "title": "Self Aware",
       "artists": [
         "Temper City"
@@ -961,7 +1426,27 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 78,
+      "title": "Into You",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "score": 0.801,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 49
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 64
+        }
+      ]
+    },
+    {
+      "rank": 79,
       "title": "Starboy",
       "artists": [
         "The Weeknd",
@@ -977,7 +1462,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 80,
       "title": "This Dream of You",
       "artists": [
         "Martin Garrix"
@@ -992,7 +1477,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 81,
       "title": "Take Me Hand",
       "artists": [
         "DAISHI DANCE",
@@ -1008,7 +1493,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 82,
       "title": "WHERE I'M SUPPOSED TO GO",
       "artists": [
         "NEFFEX"
@@ -1023,22 +1508,62 @@
       ]
     },
     {
-      "rank": 61,
-      "title": "Shotta's.",
+      "rank": 83,
+      "title": "Boston",
       "artists": [
-        "Season 25"
+        "STELLA LEFTY"
       ],
       "score": 0.783,
       "appearances": [
         {
           "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
+          "label": "Apple Music 英国热歌榜",
           "rank": 14
         }
       ]
     },
     {
-      "rank": 62,
+      "rank": 84,
+      "title": "Raindance",
+      "artists": [
+        "Dave & Tems"
+      ],
+      "score": 0.783,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 21
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 94
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "title": "So Easy (To Fall In Love)",
+      "artists": [
+        "Olivia Dean"
+      ],
+      "score": 0.783,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 29
+        },
+        {
+          "platform": "apple",
+          "label": "Apple Music 德国热歌榜",
+          "rank": 86
+        }
+      ]
+    },
+    {
+      "rank": 86,
       "title": "Dehors",
       "artists": [
         "JORDANN"
@@ -1053,7 +1578,22 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 87,
+      "title": "Lies (feat. Lana Del Rey)",
+      "artists": [
+        "Zach Bryan & Lana Del Rey"
+      ],
+      "score": 0.774,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "rank": 88,
       "title": "Prelude",
       "artists": [
         "Andria Rose"
@@ -1068,7 +1608,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 89,
       "title": "INDIAN SUMMER",
       "artists": [
         "Alan Walker",
@@ -1084,22 +1624,7 @@
       ]
     },
     {
-      "rank": 65,
-      "title": "the cure",
-      "artists": [
-        "Olivia Rodrigo"
-      ],
-      "score": 0.765,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 16
-        }
-      ]
-    },
-    {
-      "rank": 66,
+      "rank": 90,
       "title": "SLICK",
       "artists": [
         "Victony"
@@ -1114,7 +1639,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 91,
       "title": "Tomorrow Tonight",
       "artists": [
         "Chris James"
@@ -1129,7 +1654,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 92,
       "title": "Die For You",
       "artists": [
         "VALORANT",
@@ -1145,7 +1670,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 93,
       "title": "Babylon",
       "artists": [
         "Taylor Swift"
@@ -1160,22 +1685,7 @@
       ]
     },
     {
-      "rank": 70,
-      "title": "Thriller",
-      "artists": [
-        "Michael Jackson"
-      ],
-      "score": 0.747,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 18
-        }
-      ]
-    },
-    {
-      "rank": 71,
+      "rank": 94,
       "title": "Love Story",
       "artists": [
         "Taylor Swift"
@@ -1190,7 +1700,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 95,
       "title": "NEVER A MEMORY (Explicit)",
       "artists": [
         "Odetari"
@@ -1205,22 +1715,27 @@
       ]
     },
     {
-      "rank": 73,
-      "title": "Lush Life",
+      "rank": 96,
+      "title": "FEVER DREAM",
       "artists": [
-        "Zara Larsson"
+        "Alex Warren"
       ],
       "score": 0.738,
       "appearances": [
         {
           "platform": "apple",
+          "label": "Apple Music 英国热歌榜",
+          "rank": 43
+        },
+        {
+          "platform": "apple",
           "label": "Apple Music 德国热歌榜",
-          "rank": 19
+          "rank": 77
         }
       ]
     },
     {
-      "rank": 74,
+      "rank": 97,
       "title": "magnolia",
       "artists": [
         "keshi"
@@ -1235,7 +1750,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 98,
       "title": "Watson (from Cyberpunk: Edgerunners 2)",
       "artists": [
         "Petite Meller",
@@ -1251,25 +1766,25 @@
       ]
     },
     {
-      "rank": 76,
-      "title": "The Fate of Ophelia",
+      "rank": 99,
+      "title": "Angel Of My Dreams",
       "artists": [
-        "Taylor Swift"
+        "JADE"
       ],
       "score": 0.729,
       "appearances": [
         {
           "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
+          "label": "Apple Music 英国热歌榜",
           "rank": 20
         }
       ]
     },
     {
-      "rank": 77,
-      "title": "All I Want for Christmas Is You",
+      "rank": 100,
+      "title": "The One That Got Away",
       "artists": [
-        "Mariah Carey"
+        "Katy Perry"
       ],
       "score": 0.72,
       "appearances": [
@@ -1277,354 +1792,6 @@
           "platform": "apple",
           "label": "Apple Music 德国热歌榜",
           "rank": 21
-        }
-      ]
-    },
-    {
-      "rank": 78,
-      "title": "GGEZ",
-      "artists": [
-        "M.Sasuke",
-        "概念黁",
-        "Sugar张惠晴"
-      ],
-      "score": 0.72,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 29
-        }
-      ]
-    },
-    {
-      "rank": 79,
-      "title": "All My Life (A Cappella)",
-      "artists": [
-        "Mariah Carey"
-      ],
-      "score": 0.72,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 29
-        }
-      ]
-    },
-    {
-      "rank": 80,
-      "title": "The One That Got Away",
-      "artists": [
-        "Katy Perry"
-      ],
-      "score": 0.711,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 22
-        }
-      ]
-    },
-    {
-      "rank": 81,
-      "title": "Von hier an blind",
-      "artists": [
-        "Wir sind Helden"
-      ],
-      "score": 0.702,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 23
-        }
-      ]
-    },
-    {
-      "rank": 82,
-      "title": "Fallin' Out",
-      "artists": [
-        "Keyshia Cole"
-      ],
-      "score": 0.7,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 31
-        }
-      ]
-    },
-    {
-      "rank": 83,
-      "title": "You",
-      "artists": [
-        "Appleby"
-      ],
-      "score": 0.7,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 31
-        }
-      ]
-    },
-    {
-      "rank": 84,
-      "title": "ARL",
-      "artists": [
-        "LACAZETTE"
-      ],
-      "score": 0.693,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 24
-        }
-      ]
-    },
-    {
-      "rank": 85,
-      "title": "Nothin' on Me",
-      "artists": [
-        "Leah Marie Perez"
-      ],
-      "score": 0.69,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 32
-        }
-      ]
-    },
-    {
-      "rank": 86,
-      "title": "Here You Come, There You Go",
-      "artists": [
-        "Gracie Abrams"
-      ],
-      "score": 0.69,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 32
-        }
-      ]
-    },
-    {
-      "rank": 87,
-      "title": "Duvet",
-      "artists": [
-        "Bôa"
-      ],
-      "score": 0.68,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 33
-        }
-      ]
-    },
-    {
-      "rank": 88,
-      "title": "empire state of the south (Explicit)",
-      "artists": [
-        "mixed matches"
-      ],
-      "score": 0.68,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 33
-        }
-      ]
-    },
-    {
-      "rank": 89,
-      "title": "Mama (Remix)",
-      "artists": [
-        "Symba"
-      ],
-      "score": 0.675,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 26
-        }
-      ]
-    },
-    {
-      "rank": 90,
-      "title": "STAY",
-      "artists": [
-        "The Kid LAROI",
-        "Justin Bieber"
-      ],
-      "score": 0.67,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 34
-        }
-      ]
-    },
-    {
-      "rank": 91,
-      "title": "I’d Rather Be Alone",
-      "artists": [
-        "Tinashe"
-      ],
-      "score": 0.67,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 34
-        }
-      ]
-    },
-    {
-      "rank": 92,
-      "title": "New Religion",
-      "artists": [
-        "Bebe Rexha & Faithless"
-      ],
-      "score": 0.666,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 27
-        }
-      ]
-    },
-    {
-      "rank": 93,
-      "title": "Sweet Boy",
-      "artists": [
-        "Malcolm Todd"
-      ],
-      "score": 0.66,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 35
-        }
-      ]
-    },
-    {
-      "rank": 94,
-      "title": "Real Love",
-      "artists": [
-        "J.Tajor"
-      ],
-      "score": 0.66,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 35
-        }
-      ]
-    },
-    {
-      "rank": 95,
-      "title": "KILLY MANJARO",
-      "artists": [
-        "Summer Cem & BILLA JOE"
-      ],
-      "score": 0.657,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 28
-        }
-      ]
-    },
-    {
-      "rank": 96,
-      "title": "Shut up My Moms Calling",
-      "artists": [
-        "Hotel Ugly"
-      ],
-      "score": 0.65,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐欧美热歌榜",
-          "rank": 36
-        }
-      ]
-    },
-    {
-      "rank": 97,
-      "title": "Out Here On My Own (Alternate Vocal Take)",
-      "artists": [
-        "Mariah Carey"
-      ],
-      "score": 0.65,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 36
-        }
-      ]
-    },
-    {
-      "rank": 98,
-      "title": "Verschwommen",
-      "artists": [
-        "Ski Aggu & Ericson"
-      ],
-      "score": 0.648,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 29
-        }
-      ]
-    },
-    {
-      "rank": 99,
-      "title": "clean slate",
-      "artists": [
-        "girl in red"
-      ],
-      "score": 0.64,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐欧美榜",
-          "rank": 37
-        }
-      ]
-    },
-    {
-      "rank": 100,
-      "title": "Billie Jean",
-      "artists": [
-        "Michael Jackson"
-      ],
-      "score": 0.639,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 德国热歌榜",
-          "rank": 30
         }
       ]
     }
