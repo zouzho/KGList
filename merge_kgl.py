@@ -4,7 +4,15 @@ import time
 import json
 import requests
 import xml.etree.ElementTree as ET
-import bs4
+
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+install('beautifulsoup4')
+
 
 # -------------------------- 配置区 --------------------------
 SEARCH_API = "https://api.lolimi.cn/API/kgmusic/search.php"
