@@ -3,7 +3,7 @@
   "chart_type": "hot",
   "chart_label": "热歌榜",
   "limit": 100,
-  "generated_at": "2026-11-03T03:20:03Z",
+  "generated_at": "2026-11-03T03:21:25Z",
   "source_platforms": [
     "apple",
     "deezer",
