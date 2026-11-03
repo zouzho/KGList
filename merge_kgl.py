@@ -112,51 +112,13 @@ def main():
         li:last-child {{
             border-bottom: none;
         }}
-        .sc-btn{display:inline-block;padding:14px 28px;background:#e94560;color:#fff;border:none;border-radius:10px;font-weight:bold;font-size:17px;cursor:pointer;transition:0.2s;margin:5px}
-        .sc-btn:hover{background:#c81e45}
-        .sc-btn:disabled{background:#555;cursor:not-allowed}
     </style>
 </head>
 <body>
     <h1>🎵 歌单列表</h1>
-    <button class="sc-btn" onclick="captureScreenshot()">📸 一键截图保存</button>
     <ul>
         {list_items_html}
     </ul>
-            <script>
-        async function captureScreenshot() {
-            const btn = document.querySelector('.sc-btn');
-            const captureArea = document.getElementById('capture-area');
-            
-            btn.innerText = '⏳ 正在生成截图...';
-            btn.disabled = true;
-
-            try {
-                const canvas = await html2canvas(captureArea, {
-                    useCORS: true, // 允许跨域图片（如果有）
-                    scale: 2,      // 提高清晰度，按2倍像素渲染
-                    backgroundColor: '#16213e' // 指定背景色，防止透明背景
-                });
-
-                const imgDataUrl = canvas.toDataURL('image/png');
-
-                const link = document.createElement('a');
-                link.href = imgDataUrl;
-                link.download = 'KGL歌单截图_' + new Date().getTime() + '.png';
-                
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-
-            } catch (error) {
-                console.error('截图失败:', error);
-                alert('截图生成失败，请重试！');
-            } finally {
-                btn.innerText = '📸 一键截图保存';
-                btn.disabled = false;
-            }
-        }
-        </script>
 </body>
 </html>"""
 
