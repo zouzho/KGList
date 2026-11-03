@@ -80,9 +80,10 @@ def main():
 
                             line = f"《{A}》 {B}"
                             song_lines.append(line)
+                            cnt = cnt + 1
                         else:
                             print(f"⚠️ 本条格式有误，跳过：{line}")
-                        cnt = cnt + 1
+                        
     save_cache(cache)
 
     # 生成 HTML 内容
