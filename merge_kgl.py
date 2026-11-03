@@ -4,8 +4,7 @@ import time
 import json
 import requests
 import xml.etree.ElementTree as ET
-
-from bs4 import BeautifulSoup
+import bs4
 
 # -------------------------- 配置区 --------------------------
 SEARCH_API = "https://api.lolimi.cn/API/kgmusic/search.php"
@@ -63,8 +62,9 @@ def main():
                 cnt = 0
                 with open(full_path, "r", encoding="utf-8") as f:
                     for line in f:
-                        if cnt == 100:
-                            break
+                        if cnt > 100:
+                            print("⚠️ 100条以外的歌曲，跳过")
+                            continue
                         line = line.strip()
                         print(f"line -> {line}")
                       
@@ -80,7 +80,7 @@ def main():
                             A = parts[0]
                             B = parts[1]
 
-                            line = f"《{A}》 {B}"
+                            line = f"《{A}》{B}"
                             song_lines.append(line)
                             cnt = cnt + 1
                         else:
@@ -91,7 +91,7 @@ def main():
     with open(out_file_path, "r", encoding="utf-8") as f:
         html_content = f.read()
 
-        soup = BeautifulSoup(html_content,'html.parser')
+        soup = bs4.BeautifulSoup(html_content,'html.parser')
 
         ul_element = soup.find('ul', id='mylist')
         ul_element.clear()
