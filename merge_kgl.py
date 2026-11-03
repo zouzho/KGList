@@ -58,11 +58,14 @@ def main():
             if fname.lower().endswith(".txt"):
                 full_path = os.path.join(root, fname)
                 print(f"\n读取文件：{full_path}")
+                cnt = 0
                 with open(full_path, "r", encoding="utf-8") as f:
                     for line in f:
+                        if cnt == 100:
+                            break
                         line = line.strip()
                         print(f"line -> {line}")
-
+                      
                         if not line:
                             print("⚠️ 本条无FileName，跳过")
                             continue                 
@@ -79,7 +82,7 @@ def main():
                             song_lines.append(line)
                         else:
                             print(f"⚠️ 本条格式有误，跳过：{line}")
-
+                        cnt++
     save_cache(cache)
 
     # 生成 HTML 内容
