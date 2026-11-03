@@ -68,7 +68,7 @@ def main():
                             continue                 
                         
                         # 按照 《歌名》-- 歌手名 格式拼接
-                        parts  = line.strip(" - ")
+                        parts  = line.strip('-')
                         print(f"{parts}")
                         if len(parts) == 2:
                             A = parts[0]
