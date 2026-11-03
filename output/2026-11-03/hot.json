@@ -3,7 +3,7 @@
   "chart_type": "hot",
   "chart_label": "热歌榜",
   "limit": 100,
-  "generated_at": "2026-11-03T03:06:57Z",
+  "generated_at": "2026-11-03T03:20:03Z",
   "source_platforms": [
     "apple",
     "deezer",
@@ -1067,7 +1067,7 @@
         "许嵩",
         "何曼婷"
       ],
-      "score": 1.236,
+      "score": 1.248,
       "appearances": [
         {
           "platform": "netease",
@@ -1082,7 +1082,7 @@
         {
           "platform": "kugou",
           "label": "酷狗音乐TOP500",
-          "rank": 99
+          "rank": 98
         }
       ]
     },
