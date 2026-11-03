@@ -61,6 +61,7 @@ def main():
                 with open(full_path, "r", encoding="utf-8") as file_items:
                     for line in file_items:
                         line = line.strip()
+                        print(f"{line}")
 
                         if not line:
                             print("⚠️ 本条无FileName，跳过")
@@ -68,6 +69,7 @@ def main():
                         
                         # 按照 《歌名》-- 歌手名 格式拼接
                         parts  = line.strip(" - ")
+                        print(f"{parts}")
                         if len(parts) == 2:
                             A = parts[0]
                             B = parts[1]
