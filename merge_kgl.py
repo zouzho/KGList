@@ -5,6 +5,8 @@ import json
 import requests
 import xml.etree.ElementTree as ET
 
+from bs4 import BeautifulSoup
+
 # -------------------------- 配置区 --------------------------
 SEARCH_API = "https://api.lolimi.cn/API/kgmusic/search.php"
 REQ_DELAY = 1.2
@@ -86,56 +88,21 @@ def main():
                         
     save_cache(cache)
 
-    # 生成 HTML 内容
-    # 将每一行转换为 <li> 标签，并使用换行符连接
-    list_items_html = "\n".join([f"    <li>{line}</li>" for line in song_lines])
-    
-    html_content = f"""<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>歌单列表</title>
-    <style>
-        body {{
-            font-family: "Microsoft YaHei", sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 40px auto;
-            max-width: 800px;
-            padding: 0 20px;
-        }}
-        h1 {{
-            text-align: center;
-            color: #444;
-        }}
-        ul {{
-            list-style-type: decimal;
-            background: #fff;
-            padding: 20px 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }}
-        li {{
-            padding: 8px 0;
-            border-bottom: 1px solid #eee;
-            font-size: 16px;
-        }}
-        li:last-child {{
-            border-bottom: none;
-        }}
-    </style>
-</head>
-<body>
-    <h1>🎵 歌单列表</h1>
-    <ul>
-        {list_items_html}
-    </ul>
-</body>
-</html>"""
+    with open(out_file_path, "r", encoding="utf-8") as f:
+        html_content = f.read()
+
+        soup = BeautifulSoup(html_content,'html.parser')
+
+        ul_element = soup.find('ul', id='mylist')
+        ul_element.clear()
+
+        for line in song_lines:
+            li_element = soup.new_tag('li')
+            li_element.string = line
+            ul_element.append(li_element)
 
     with open(out_file_path, "w", encoding="utf-8") as f:
-        f.write(html_content)
+        f.write(str(soup))
 
     print(f"\n✅ 合并完成！一共 {len(song_lines)} 条歌曲记录")
     print(f"输出：{out_file_path}")
