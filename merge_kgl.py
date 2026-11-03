@@ -82,7 +82,7 @@ def main():
                             song_lines.append(line)
                         else:
                             print(f"⚠️ 本条格式有误，跳过：{line}")
-                        cnt++
+                        cnt = cnt + 1
     save_cache(cache)
 
     # 生成 HTML 内容
