@@ -61,14 +61,15 @@ def main():
                 file_items = parse_kgl_xml(full_path)
                 for info in file_items:
                     song_name = info.get("FileName", "").strip()
-                    singer_name = info.get("Singer", "").strip()
                     
                     if not song_name:
                         print("⚠️ 本条无FileName，跳过")
                         continue                    
                     
                     # 按照 《歌名》-- 歌手名 格式拼接
-                    line = f"《{song_name}》-- {singer_name}"
+                    arr = song_name.strip(' - ')
+
+                    line = f"《{arr[0]}》-- {arr[1]}"
                     song_lines.append(line)
 
     save_cache(cache)
