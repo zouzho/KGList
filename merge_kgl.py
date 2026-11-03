@@ -62,30 +62,28 @@ def main():
             if fname.lower().endswith(".txt"):
                 full_path = os.path.join(root, fname)
                 print(f"\n读取文件：{full_path}")
-                cnt = 0
                 with open(full_path, "r", encoding="utf-8") as f:
+                    cnt = 0
                     for line in f:
                         if cnt > 100:
                             print("⚠️ 100条以外的歌曲，跳过")
                             continue
                         line = line.strip()
-                        print(f"line -> {line}")
-                      
+                        
                         if not line:
                             print("⚠️ 本条无FileName，跳过")
                             continue                 
                         
                         # 按照 《歌名》-- 歌手名 格式拼接
                         parts  = line.split(" - ", 1)
-                        print(f"parts 0 -- {parts[0]}")
-                        print(f"parts 1 -- {parts[1]}")
                         if len(parts) == 2:
                             A = parts[0]
                             B = parts[1]
 
-                            line = f"《{A}》{B}"
+                            line = f"《{A}》{B}"        
+                            cnt += 1
+                            print(f"{line} -> cnt = {cnt}")
                             song_lines.append(line)
-                            cnt = cnt + 1
                         else:
                             print(f"⚠️ 本条格式有误，跳过：{line}")
                         
@@ -102,7 +100,7 @@ def main():
     UL_PATTERN.sub(lambda m: m.group(1) + m.group(3), html, count=1) # 1. 清空原有子项
 
     item_songs = "\n".join(f"    <li>{song}</li>" for song in song_lines)
-    html = UL_PATTERN.sub(lambda m: m.group(1) + item_songs + m.group(3), html, count=1)
+    html = UL_PATTERN.sub(lambda m: m.group(1) + item_songs + m.group(3), html, count=1) # 2. 添加新子项
 
     out_file_path.write_text(html, encoding="utf-8")
     print(f"\n✅ 合并完成！一共 {len(song_lines)} 条歌曲记录")
