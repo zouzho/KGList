@@ -67,7 +67,7 @@ def main():
                         continue                    
                     
                     # 按照 《歌名》-- 歌手名 格式拼接
-                    arr = song_name.strip(' - ')
+                    arr = song_name.strip(" - ")
 
                     line = f"《{arr[0]}》-- {arr[1]}"
                     song_lines.append(line)
