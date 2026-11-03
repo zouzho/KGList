@@ -58,8 +58,8 @@ def main():
             if fname.lower().endswith(".txt"):
                 full_path = os.path.join(root, fname)
                 print(f"\n读取文件：{full_path}")
-                with open(full_path, "r", encoding="utf-8") as file_items:
-                    for line in file_items:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    for line in f:
                         line = line.strip()
                         print(f"line -> {line}")
 
@@ -68,7 +68,7 @@ def main():
                             continue                 
                         
                         # 按照 《歌名》-- 歌手名 格式拼接
-                        parts  = line.strip('-')
+                        parts  = line.split(" - ", 1)
                         print(f"parts 0 -- {parts[0]}")
                         print(f"parts 1 -- {parts[1]}")
                         if len(parts) == 2:
