@@ -4,7 +4,10 @@ import time
 import json
 import requests
 import xml.etree.ElementTree as ET
-import lxml
+import re
+import sys
+import shutil
+from pathlib import Path
 
 # -------------------------- 配置区 --------------------------
 SEARCH_API = "https://api.lolimi.cn/API/kgmusic/search.php"
@@ -88,22 +91,20 @@ def main():
                         
     save_cache(cache)
 
-    with open(out_file_path, "r", encoding="utf-8") as f:
-        html_content = f.read()
+    html = out_file_path.read_text(encoding="utf-8")
 
-        tree = lxml.html.fromstring(html_content)
+    # 匹配 <ul id='mylist' ...> ... </ul>，兼容单引号/双引号/带其他属性/多行内容
+    UL_PATTERN = re.compile(
+        r"(<ul\s+id\s*=\s*['\"]mylist['\"][^>]*>)(.*?)(</ul>)",
+        re.DOTALL | re.IGNORECASE,
+    )
 
-        ul_element = tree.xpath('//ul[@id="mylist"]')[0]
-        ul_element.clear()
+    UL_PATTERN.sub(lambda m: m.group(1) + m.group(3), html, count=1) # 1. 清空原有子项
 
-        for line in song_lines:
-            li_element = lxml.etree.new_tag('li')
-            li_element.string = line
-            ul_element.append(li_element)
+    item_songs = "\n".join(f"    <li>{song}</li>" for song in song_lines)
+    html = UL_PATTERN.sub(lambda m: m.group(1) + item_songs + m.group(3), html, count=1)
 
-    with open(out_file_path, "w", encoding="utf-8") as f:
-        f.write(lxml.etree.tostring(tree, encoding='unicode'))
-
+    out_file_path.write_text(html, encoding="utf-8")
     print(f"\n✅ 合并完成！一共 {len(song_lines)} 条歌曲记录")
     print(f"输出：{out_file_path}")
 
