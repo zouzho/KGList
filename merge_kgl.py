@@ -1,6 +1,5 @@
 # merge_kgl.py
 import os
-import re
 import time
 import json
 import requests
@@ -10,7 +9,6 @@ import xml.etree.ElementTree as ET
 SEARCH_API = "https://api.lolimi.cn/API/kgmusic/search.php"
 REQ_DELAY = 1.2
 CACHE_FILE = "hash_cache.json"
-LIST_NAME = "欧洲榜 TOP100"
 # ------------------------------------------------------------
 
 def load_cache():
@@ -26,36 +24,12 @@ def save_cache(cache):
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
-def get_kugou_hash(song_name: str, cache: dict):
-    if song_name in cache:
-        return cache[song_name]
-
-    try:
-        resp = requests.get(SEARCH_API, params={"name": song_name}, timeout=10)
-        resp.raise_for_status()
-        data = resp.json()
-        if data.get("code") == 200 and data.get("data"):
-            hash_val = data["data"][0]["hash"]
-            cache[song_name] = hash_val
-            time.sleep(REQ_DELAY)
-            return hash_val
-        else:
-            cache[song_name] = "0"
-            time.sleep(REQ_DELAY)
-            return None
-    except Exception as e:
-        print(f"搜索【{song_name}】失败：{e}")
-        cache[song_name] = "0"
-        time.sleep(REQ_DELAY)
-        return None
-
 def parse_kgl_xml(file_path):
     """读取单个kgl，提取所有File子节点，返回字段字典列表"""
     items = []
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             raw = f.read()
-        # 补根节点，防止ET解析报错
         root = ET.fromstring(raw)
         for file_node in root.findall("File"):
             item = {}
@@ -66,31 +40,18 @@ def parse_kgl_xml(file_path):
         print(f"XML解析失败 {file_path} -> {e}")
     return items
 
-def build_file_xml(item: dict) -> str:
-    return (
-        "<File>"
-        f"<FilePath>{item.get('FilePath','')}</FilePath>"
-        f"<FileSize>{item.get('FileSize','0')}</FileSize>"
-        f"<Duration>{item.get('Duration','0')}</Duration>"
-        f"<Hash>{item.get('Hash','0')}</Hash>"
-        f"<Lyric>{item.get('Lyric','')}</Lyric>"
-        f"<BitRate>{item.get('BitRate','192')}</BitRate>"
-        f"<MediaFileType>{item.get('MediaFileType','0')}</MediaFileType>"
-        f"<FileName>{item.get('FileName','')}</FileName>"
-        "</File>"
-    )
-
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_root = os.path.join(script_dir, "output")
-    out_file_path = os.path.join(script_dir, "gd.kgl")
+    # 输出同级别的 gd.html 文件
+    out_file_path = os.path.join(script_dir, "gd.html")
     cache = load_cache()
 
     if not os.path.isdir(output_root):
         print(f"错误：找不到目录 {output_root}")
         return
 
-    all_file_items = []
+    song_lines = []
 
     for root, _, files in os.walk(output_root):
         for fname in files:
@@ -100,29 +61,70 @@ def main():
                 file_items = parse_kgl_xml(full_path)
                 for info in file_items:
                     song_name = info.get("FileName", "").strip()
+                    singer_name = info.get("Singer", "").strip()
+                    
                     if not song_name:
                         print("⚠️ 本条无FileName，跳过")
-                        continue
-                    h = get_kugou_hash(song_name, cache)
-                    if h:
-                        info["Hash"] = h
-                        print(f"✅ {song_name} -> {h}")
-                    else:
-                        info["Hash"] = "0"
-                        print(f"❌ {song_name} 未搜到hash，保留0")
-                    all_file_items.append(build_file_xml(info))
+                        continue                    
+                    
+                    # 按照 《歌名》-- 歌手名 格式拼接
+                    line = f"《{song_name}》-- {singer_name}"
+                    song_lines.append(line)
 
     save_cache(cache)
 
-    xml_header = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    list_open = f'<List ListName="{LIST_NAME}">\n'
-    list_close = '\n</List>'
-    final = xml_header + list_open + "\n".join(all_file_items) + list_close
+    # 生成 HTML 内容
+    # 将每一行转换为 <li> 标签，并使用换行符连接
+    list_items_html = "\n".join([f"    <li>{line}</li>" for line in song_lines])
+    
+    html_content = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌单列表</title>
+    <style>
+        body {{
+            font-family: "Microsoft YaHei", sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 0 20px;
+        }}
+        h1 {{
+            text-align: center;
+            color: #444;
+        }}
+        ul {{
+            list-style-type: decimal;
+            background: #fff;
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }}
+        li {{
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+        }}
+        li:last-child {{
+            border-bottom: none;
+        }}
+    </style>
+</head>
+<body>
+    <h1>🎵 歌单列表</h1>
+    <ul>
+{list_items_html}
+    </ul>
+</body>
+</html>"""
 
     with open(out_file_path, "w", encoding="utf-8") as f:
-        f.write(final)
+        f.write(html_content)
 
-    print(f"\n✅ 合并完成！一共 {len(all_file_items)} 条歌曲记录")
+    print(f"\n✅ 合并完成！一共 {len(song_lines)} 条歌曲记录")
     print(f"输出：{out_file_path}")
 
 if __name__ == "__main__":
