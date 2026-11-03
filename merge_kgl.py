@@ -75,7 +75,7 @@ def main():
                             A = parts[0]
                             B = parts[1]
 
-                            line = f"《{A}》-- {B}"
+                            line = f"《{A}》 {B}"
                             song_lines.append(line)
                         else:
                             print(f"⚠️ 本条格式有误，跳过：{line}")
