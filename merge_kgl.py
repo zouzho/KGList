@@ -74,7 +74,7 @@ def main():
 
                             line = f"《{A}》-- {B}"
                             song_lines.append(line)
-                        else
+                        else:
                             print(f"⚠️ 本条格式有误，跳过：{line}")
 
     save_cache(cache)
