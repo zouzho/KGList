@@ -55,22 +55,27 @@ def main():
 
     for root, _, files in os.walk(output_root):
         for fname in files:
-            if fname.lower().endswith(".kgl"):
+            if fname.lower().endswith(".txt"):
                 full_path = os.path.join(root, fname)
                 print(f"\n读取文件：{full_path}")
-                file_items = parse_kgl_xml(full_path)
-                for info in file_items:
-                    song_name = info.get("FileName", "").strip()
-                    
-                    if not song_name:
-                        print("⚠️ 本条无FileName，跳过")
-                        continue                    
-                    
-                    # 按照 《歌名》-- 歌手名 格式拼接
-                    arr = song_name.strip("-")
+                with open(full_path, "r", encoding="utf-8") as file_items:
+                    for line in file_items:
+                        line = line.strip()
 
-                    line = f"《{arr[0]}》-- {arr[1]}"
-                    song_lines.append(line)
+                        if not line:
+                            print("⚠️ 本条无FileName，跳过")
+                            continue                 
+                        
+                        # 按照 《歌名》-- 歌手名 格式拼接
+                        parts  = line.strip(" - ", 1)
+                        if len(parts) == 2:
+                            A = parts[0]
+                            B = parts[1]
+
+                            line = f"《{A}》-- {B}"
+                            song_lines.append(line)
+                        else
+                            print(f"⚠️ 本条格式有误，跳过：{line}")
 
     save_cache(cache)
 
