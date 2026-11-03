@@ -3,7 +3,7 @@
   "chart_type": "new",
   "chart_label": "新歌榜",
   "limit": 100,
-  "generated_at": "2026-11-03T06:20:00Z",
+  "generated_at": "2026-11-03T06:24:39Z",
   "source_platforms": [
     "kugou",
     "netease",

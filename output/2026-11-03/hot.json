@@ -3,7 +3,7 @@
   "chart_type": "hot",
   "chart_label": "热歌榜",
   "limit": 100,
-  "generated_at": "2026-11-03T06:20:00Z",
+  "generated_at": "2026-11-03T06:24:39Z",
   "source_platforms": [
     "apple",
     "deezer",
@@ -469,12 +469,12 @@
       "artists": [
         "Ella Langley"
       ],
-      "score": 2.106,
+      "score": 2.1168,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 3
+          "rank": 2
         },
         {
           "platform": "deezer",
@@ -489,12 +489,12 @@
       "artists": [
         "Morgan Wallen"
       ],
-      "score": 2.0628,
+      "score": 2.052,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 5
+          "rank": 6
         },
         {
           "platform": "deezer",
@@ -529,12 +529,12 @@
       "artists": [
         "KAROL G, Judeline & rusowsky"
       ],
-      "score": 2.0088,
+      "score": 2.0196,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 4
+          "rank": 3
         },
         {
           "platform": "deezer",
@@ -569,12 +569,12 @@
       "artists": [
         "ADÉLA"
       ],
-      "score": 1.9764,
+      "score": 1.9872,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 8
+          "rank": 7
         },
         {
           "platform": "deezer",
@@ -589,12 +589,12 @@
       "artists": [
         "Tate McRae"
       ],
-      "score": 1.9656,
+      "score": 1.9764,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 2
+          "rank": 1
         },
         {
           "platform": "deezer",
@@ -609,12 +609,12 @@
       "artists": [
         "Ella Langley"
       ],
-      "score": 1.9008,
+      "score": 1.9116,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 21
+          "rank": 20
         },
         {
           "platform": "deezer",
@@ -629,12 +629,12 @@
       "artists": [
         "Olivia Rodrigo"
       ],
-      "score": 1.8252,
+      "score": 1.8684,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 18
+          "rank": 14
         },
         {
           "platform": "deezer",
@@ -780,12 +780,12 @@
       "artists": [
         "Morgan Wallen"
       ],
-      "score": 1.566,
+      "score": 1.5552,
       "appearances": [
         {
           "platform": "apple",
           "label": "Apple Music 美国热歌榜",
-          "rank": 30
+          "rank": 31
         },
         {
           "platform": "deezer",
@@ -836,6 +836,26 @@
     },
     {
       "rank": 37,
+      "title": "Patient Zero",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "score": 1.4904,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 50
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 38,
       "title": "Boston",
       "artists": [
         "STELLA LEFTY"
@@ -851,26 +871,6 @@
           "platform": "deezer",
           "label": "Deezer 全球热歌榜",
           "rank": 3
-        }
-      ]
-    },
-    {
-      "rank": 38,
-      "title": "Patient Zero",
-      "artists": [
-        "Taylor Swift"
-      ],
-      "score": 1.458,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 53
-        },
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 14
         }
       ]
     },
@@ -1042,26 +1042,6 @@
     },
     {
       "rank": 47,
-      "title": "This Is Halloween",
-      "artists": [
-        "The Citizens of Halloween"
-      ],
-      "score": 1.2636,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 14
-        },
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 71
-        }
-      ]
-    },
-    {
-      "rank": 48,
       "title": "素颜",
       "artists": [
         "许嵩",
@@ -1087,7 +1067,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 48,
       "title": "愿与愁",
       "artists": [
         "林俊杰"
@@ -1107,7 +1087,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 49,
       "title": "Whatever Happens",
       "artists": [
         "Michael Jackson"
@@ -1127,7 +1107,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 50,
       "title": "我听见了，你的痛苦成立",
       "artists": [
         "供销社乐队"
@@ -1147,7 +1127,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 51,
       "title": "海屿你",
       "artists": [
         "马也_Crabbit"
@@ -1162,7 +1142,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 52,
       "title": "富士山下",
       "artists": [
         "陈奕迅"
@@ -1182,7 +1162,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 53,
       "title": "一张相片",
       "artists": [
         "连麻Swimming"
@@ -1197,7 +1177,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 54,
       "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
       "artists": [
         "BESTie (베스티)"
@@ -1212,7 +1192,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 55,
       "title": "说好再见却再也不见 (催泪版)",
       "artists": [
         "迟嘉良"
@@ -1227,7 +1207,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 56,
       "title": "无 意",
       "artists": [
         "加木",
@@ -1243,7 +1223,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 57,
       "title": "新·与天齐",
       "artists": [
         "指尖笑"
@@ -1254,6 +1234,26 @@
           "platform": "kugou",
           "label": "酷狗音乐TOP500",
           "rank": 7
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "title": "hate that i made you love me",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "score": 1.1232,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 82
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 16
         }
       ]
     },
@@ -1279,6 +1279,26 @@
     },
     {
       "rank": 60,
+      "title": "This Is Halloween",
+      "artists": [
+        "The Citizens of Halloween"
+      ],
+      "score": 1.1016,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 29
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 71
+        }
+      ]
+    },
+    {
+      "rank": 61,
       "title": "最佳损友",
       "artists": [
         "陈奕迅"
@@ -1303,7 +1323,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 62,
       "title": "明知故犯",
       "artists": [
         "Max李玄"
@@ -1318,7 +1338,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 63,
       "title": "NEON",
       "artists": [
         "A2O LITE",
@@ -1330,21 +1350,6 @@
           "platform": "qq",
           "label": "QQ音乐巅峰榜·热歌",
           "rank": 10
-        }
-      ]
-    },
-    {
-      "rank": 63,
-      "title": "Thriller",
-      "artists": [
-        "Michael Jackson"
-      ],
-      "score": 1.08,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 1
         }
       ]
     },
@@ -1476,6 +1481,21 @@
     },
     {
       "rank": 72,
+      "title": "Thriller",
+      "artists": [
+        "Michael Jackson"
+      ],
+      "score": 1.0476,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rank": 73,
       "title": "如果呢",
       "artists": [
         "郑润泽"
@@ -1490,7 +1510,22 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 74,
+      "title": "Solar Eclipse",
+      "artists": [
+        "Drake & Don Toliver"
+      ],
+      "score": 1.0368,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rank": 75,
       "title": "嗜好",
       "artists": [
         "颜人中"
@@ -1501,41 +1536,6 @@
           "platform": "netease",
           "label": "网易云音乐热歌榜",
           "rank": 15
-        }
-      ]
-    },
-    {
-      "rank": 74,
-      "title": "Monster Mash",
-      "artists": [
-        "Bobby \"Boris\" Pickett"
-      ],
-      "score": 1.026,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 20
-        },
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 87
-        }
-      ]
-    },
-    {
-      "rank": 75,
-      "title": "Solar Eclipse",
-      "artists": [
-        "Drake & Don Toliver"
-      ],
-      "score": 1.026,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 6
         }
       ]
     },
@@ -1574,21 +1574,6 @@
     },
     {
       "rank": 78,
-      "title": "Lies (feat. Lana Del Rey)",
-      "artists": [
-        "Zach Bryan & Lana Del Rey"
-      ],
-      "score": 1.0152,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 7
-        }
-      ]
-    },
-    {
-      "rank": 79,
       "title": "Be By You",
       "artists": [
         "Luke Combs"
@@ -1603,7 +1588,7 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 79,
       "title": "遇见",
       "artists": [
         "孙燕姿"
@@ -1623,7 +1608,7 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 80,
       "title": "碎碎念",
       "artists": [
         "队长"
@@ -1638,7 +1623,7 @@
       ]
     },
     {
-      "rank": 82,
+      "rank": 81,
       "title": "大漠长明",
       "artists": [
         "指南针"
@@ -1649,6 +1634,21 @@
           "platform": "kugou",
           "label": "酷狗音乐TOP500",
           "rank": 17
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "title": "Janice STFU",
+      "artists": [
+        "Drake"
+      ],
+      "score": 1.0044,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 8
         }
       ]
     },
@@ -1684,9 +1684,9 @@
     },
     {
       "rank": 85,
-      "title": "Janice STFU",
+      "title": "Lies (feat. Lana Del Rey)",
       "artists": [
-        "Drake"
+        "Zach Bryan & Lana Del Rey"
       ],
       "score": 0.9936,
       "appearances": [
@@ -1885,29 +1885,9 @@
     },
     {
       "rank": 98,
-      "title": "hate that i made you love me",
+      "title": "All I Want for Christmas Is You",
       "artists": [
-        "Ariana Grande"
-      ],
-      "score": 0.9396,
-      "appearances": [
-        {
-          "platform": "apple",
-          "label": "Apple Music 美国热歌榜",
-          "rank": 99
-        },
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 16
-        }
-      ]
-    },
-    {
-      "rank": 99,
-      "title": "Last Thing You Need",
-      "artists": [
-        "Morgan Wallen"
+        "Mariah Carey"
       ],
       "score": 0.9288,
       "appearances": [
@@ -1919,7 +1899,7 @@
       ]
     },
     {
-      "rank": 100,
+      "rank": 99,
       "title": "忘不掉的你",
       "artists": [
         "h3R3"
@@ -1930,6 +1910,21 @@
           "platform": "netease",
           "label": "网易云音乐热歌榜",
           "rank": 24
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "title": "Last Thing You Need",
+      "artists": [
+        "Morgan Wallen"
+      ],
+      "score": 0.918,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 16
         }
       ]
     }
