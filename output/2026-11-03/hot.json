@@ -3,8 +3,9 @@
   "chart_type": "hot",
   "chart_label": "热歌榜",
   "limit": 100,
-  "generated_at": "2026-11-03T02:28:33Z",
+  "generated_at": "2026-11-03T02:34:16Z",
   "source_platforms": [
+    "apple",
     "deezer",
     "kugou",
     "netease",
@@ -439,6 +440,26 @@
     },
     {
       "rank": 18,
+      "title": "Choosin' Texas",
+      "artists": [
+        "Ella Langley"
+      ],
+      "score": 2.106,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 3
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rank": 19,
       "title": "发如雪",
       "artists": [
         "周杰伦"
@@ -458,7 +479,107 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
+      "title": "Been By Now",
+      "artists": [
+        "Morgan Wallen"
+      ],
+      "score": 2.052,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 6
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "title": "BbY WOW",
+      "artists": [
+        "KAROL G, Judeline & rusowsky"
+      ],
+      "score": 2.0088,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 4
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "title": "Housewife",
+      "artists": [
+        "Tate McRae"
+      ],
+      "score": 1.9656,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 2
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "title": "Nicole Kidman",
+      "artists": [
+        "ADÉLA"
+      ],
+      "score": 1.9656,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 9
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "title": "Be Her",
+      "artists": [
+        "Ella Langley"
+      ],
+      "score": 1.89,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 22
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rank": 25,
       "title": "You Are All I Need",
       "artists": [
         "FLY COAST",
@@ -479,7 +600,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 26,
       "title": "泪海",
       "artists": [
         "许茹芸"
@@ -499,7 +620,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 27,
       "title": "玻璃",
       "artists": [
         "Gareth.T"
@@ -519,7 +640,27 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 28,
+      "title": "stupid song",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "score": 1.7928,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 21
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "rank": 29,
       "title": "Moonride",
       "artists": [
         "Hearts2Hearts"
@@ -539,7 +680,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 30,
       "title": "特别的人",
       "artists": [
         "方大同"
@@ -559,7 +700,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 31,
       "title": "演员",
       "artists": [
         "薛之谦"
@@ -584,7 +725,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 32,
       "title": "刻在我心底的名字",
       "artists": [
         "卢广仲"
@@ -604,7 +745,27 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 33,
+      "title": "Don't We",
+      "artists": [
+        "Morgan Wallen"
+      ],
+      "score": 1.5444,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 32
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "rank": 34,
       "title": "茶汤",
       "artists": [
         "郁可唯"
@@ -624,7 +785,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 35,
       "title": "唯一",
       "artists": [
         "G.E.M.邓紫棋"
@@ -644,7 +805,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 36,
       "title": "红色高跟鞋",
       "artists": [
         "蔡健雅"
@@ -664,7 +825,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 37,
       "title": "Always Online",
       "artists": [
         "林俊杰"
@@ -684,7 +845,47 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 38,
+      "title": "Boston",
+      "artists": [
+        "STELLA LEFTY"
+      ],
+      "score": 1.4364,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 66
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "title": "Patient Zero",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "score": 1.4256,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 56
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 40,
       "title": "新·与天齐",
       "artists": [
         "指尖笑"
@@ -704,7 +905,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 41,
       "title": "自由的你",
       "artists": [
         "G.E.M.邓紫棋"
@@ -729,7 +930,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 42,
       "title": "我爱你",
       "artists": [
         "王菲"
@@ -749,7 +950,27 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 43,
+      "title": "This Is Halloween",
+      "artists": [
+        "The Citizens of Halloween"
+      ],
+      "score": 1.3068,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 10
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 71
+        }
+      ]
+    },
+    {
+      "rank": 44,
       "title": "素颜",
       "artists": [
         "许嵩",
@@ -775,7 +996,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 45,
       "title": "出现又离开 (Live)",
       "artists": [
         "梁博"
@@ -800,7 +1021,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 46,
       "title": "左转灯 (1000 Times +1)",
       "artists": [
         "派伟俊",
@@ -821,7 +1042,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 47,
       "title": "你不要那样看着我的眼睛",
       "artists": [
         "蔡琴"
@@ -841,7 +1062,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 48,
       "title": "愿与愁",
       "artists": [
         "林俊杰"
@@ -861,7 +1082,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 49,
       "title": "认真的雪",
       "artists": [
         "薛之谦"
@@ -881,7 +1102,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 50,
       "title": "最佳损友",
       "artists": [
         "陈奕迅"
@@ -906,7 +1127,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 51,
       "title": "Whatever Happens",
       "artists": [
         "Michael Jackson"
@@ -926,7 +1147,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 52,
       "title": "我听见了，你的痛苦成立",
       "artists": [
         "供销社乐队"
@@ -946,7 +1167,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 53,
       "title": "海屿你",
       "artists": [
         "马也_Crabbit"
@@ -961,7 +1182,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 54,
       "title": "过渡期",
       "artists": [
         "小宇-宋念宇"
@@ -986,7 +1207,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 55,
       "title": "一张相片",
       "artists": [
         "连麻Swimming"
@@ -1001,7 +1222,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 56,
       "title": "富士山下",
       "artists": [
         "陈奕迅"
@@ -1021,7 +1242,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 57,
       "title": "黄昏",
       "artists": [
         "周传雄"
@@ -1041,7 +1262,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 58,
       "title": "说好再见却再也不见 (催泪版)",
       "artists": [
         "迟嘉良"
@@ -1056,7 +1277,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 59,
       "title": "无 意",
       "artists": [
         "加木",
@@ -1072,7 +1293,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 60,
       "title": "坏女孩",
       "artists": [
         "徐良",
@@ -1093,7 +1314,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 61,
       "title": "NEON",
       "artists": [
         "A2O LITE",
@@ -1109,7 +1330,27 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 62,
+      "title": "Monster Mash",
+      "artists": [
+        "Bobby \"Boris\" Pickett"
+      ],
+      "score": 1.1016,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 13
+        },
+        {
+          "platform": "deezer",
+          "label": "Deezer 全球热歌榜",
+          "rank": 87
+        }
+      ]
+    },
+    {
+      "rank": 63,
       "title": "明知故犯",
       "artists": [
         "Max李玄"
@@ -1124,7 +1365,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 64,
       "title": "多远都要在一起",
       "artists": [
         "G.E.M.邓紫棋"
@@ -1144,10 +1385,25 @@
       ]
     },
     {
-      "rank": 53,
-      "title": "Dracula (with JENNIE)",
+      "rank": 65,
+      "title": "Thriller",
       "artists": [
-        "Tame Impala"
+        "Michael Jackson"
+      ],
+      "score": 1.08,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "title": "St. James Infirmary",
+      "artists": [
+        "Cab Calloway"
       ],
       "score": 1.08,
       "appearances": [
@@ -1159,7 +1415,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 67,
       "title": "罗生门（Follow）",
       "artists": [
         "梨冻紧",
@@ -1175,7 +1431,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 68,
       "title": "无奈的思绪",
       "artists": [
         "嘉慧"
@@ -1190,10 +1446,10 @@
       ]
     },
     {
-      "rank": 56,
-      "title": "OLIVIA LA FLAKA",
+      "rank": 69,
+      "title": "Dracula (with JENNIE)",
       "artists": [
-        "Natanael Cano"
+        "Tame Impala"
       ],
       "score": 1.0692,
       "appearances": [
@@ -1205,7 +1461,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 70,
       "title": "99",
       "artists": [
         "TizzyT"
@@ -1220,7 +1476,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 71,
       "title": "不死鸟",
       "artists": [
         "霍尊"
@@ -1235,22 +1491,7 @@
       ]
     },
     {
-      "rank": 59,
-      "title": "Suzuki (from GTAVI: The Album)",
-      "artists": [
-        "Fuerza Regida"
-      ],
-      "score": 1.0584,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "rank": 60,
+      "rank": 72,
       "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
       "artists": [
         "BESTie (베스티)"
@@ -1265,7 +1506,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 73,
       "title": "若你看见花开",
       "artists": [
         "杨小壮"
@@ -1280,22 +1521,7 @@
       ]
     },
     {
-      "rank": 62,
-      "title": "BbY WOW",
-      "artists": [
-        "KAROL G"
-      ],
-      "score": 1.0476,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 4
-        }
-      ]
-    },
-    {
-      "rank": 63,
+      "rank": 74,
       "title": "如果呢",
       "artists": [
         "郑润泽"
@@ -1310,22 +1536,22 @@
       ]
     },
     {
-      "rank": 64,
-      "title": "Te Estoy Correteando",
+      "rank": 75,
+      "title": "Solar Eclipse",
       "artists": [
-        "Latin Mafia"
+        "Drake & Don Toliver"
       ],
       "score": 1.0368,
       "appearances": [
         {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
           "rank": 5
         }
       ]
     },
     {
-      "rank": 65,
+      "rank": 76,
       "title": "嗜好",
       "artists": [
         "颜人中"
@@ -1340,22 +1566,7 @@
       ]
     },
     {
-      "rank": 66,
-      "title": "Billie Jean",
-      "artists": [
-        "Michael Jackson"
-      ],
-      "score": 1.026,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 6
-        }
-      ]
-    },
-    {
-      "rank": 67,
+      "rank": 77,
       "title": "一半一半",
       "artists": [
         "Top Barry",
@@ -1371,7 +1582,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 78,
       "title": "Call your name (Gv)",
       "artists": [
         "澤野弘之",
@@ -1388,10 +1599,25 @@
       ]
     },
     {
-      "rank": 69,
-      "title": "Todo De Ti",
+      "rank": 79,
+      "title": "Lies (feat. Lana Del Rey)",
       "artists": [
-        "Rauw Alejandro"
+        "Zach Bryan & Lana Del Rey"
+      ],
+      "score": 1.0152,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "title": "Be By You",
+      "artists": [
+        "Luke Combs"
       ],
       "score": 1.0152,
       "appearances": [
@@ -1403,7 +1629,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 81,
       "title": "碎碎念",
       "artists": [
         "队长"
@@ -1418,7 +1644,7 @@
       ]
     },
     {
-      "rank": 71,
+      "rank": 82,
       "title": "大漠长明",
       "artists": [
         "指南针"
@@ -1433,10 +1659,25 @@
       ]
     },
     {
-      "rank": 72,
-      "title": "Boston",
+      "rank": 83,
+      "title": "Janice STFU",
       "artists": [
-        "STELLA LEFTY"
+        "Drake"
+      ],
+      "score": 1.0044,
+      "appearances": [
+        {
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "title": "Loving Life Again",
+      "artists": [
+        "Ella Langley"
       ],
       "score": 1.0044,
       "appearances": [
@@ -1448,7 +1689,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 85,
       "title": "大梦归",
       "artists": [
         "周深"
@@ -1463,10 +1704,10 @@
       ]
     },
     {
-      "rank": 74,
-      "title": "daño",
+      "rank": 86,
+      "title": "Something To Lose",
       "artists": [
-        "Peso Pluma"
+        "STELLA LEFTY"
       ],
       "score": 0.9936,
       "appearances": [
@@ -1478,7 +1719,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 87,
       "title": "其实",
       "artists": [
         "薛之谦"
@@ -1498,7 +1739,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 88,
       "title": "于是",
       "artists": [
         "郑润泽"
@@ -1513,10 +1754,10 @@
       ]
     },
     {
-      "rank": 77,
-      "title": "Todo Lo Fue",
+      "rank": 89,
+      "title": "Should I Stay or Should I Go (Remastered)",
       "artists": [
-        "Lenin Ramírez"
+        "The Clash"
       ],
       "score": 0.9828,
       "appearances": [
@@ -1528,7 +1769,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 90,
       "title": "我们俩",
       "artists": [
         "郭顶"
@@ -1548,22 +1789,22 @@
       ]
     },
     {
-      "rank": 79,
-      "title": "Choosin' Texas",
+      "rank": 91,
+      "title": "Ghostbusters",
       "artists": [
-        "Ella Langley"
+        "Ray Parker Jr."
       ],
       "score": 0.972,
       "appearances": [
         {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
           "rank": 11
         }
       ]
     },
     {
-      "rank": 80,
+      "rank": 92,
       "title": "爱错",
       "artists": [
         "王力宏"
@@ -1578,22 +1819,22 @@
       ]
     },
     {
-      "rank": 81,
-      "title": "SUPERESTRELLA",
+      "rank": 93,
+      "title": "In A Minute",
       "artists": [
-        "Aitana"
+        "Lil Baby"
       ],
       "score": 0.9612,
       "appearances": [
         {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
           "rank": 12
         }
       ]
     },
     {
-      "rank": 82,
+      "rank": 94,
       "title": "互删 (我走以后)",
       "artists": [
         "江辰"
@@ -1608,10 +1849,10 @@
       ]
     },
     {
-      "rank": 83,
-      "title": "Desesperados",
+      "rank": 95,
+      "title": "The Munsters",
       "artists": [
-        "Rauw Alejandro"
+        "KnightsBridge"
       ],
       "score": 0.9504,
       "appearances": [
@@ -1623,7 +1864,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 96,
       "title": "牡丹亭",
       "artists": [
         "浅影阿"
@@ -1638,37 +1879,37 @@
       ]
     },
     {
-      "rank": 85,
-      "title": "Get Lucky (Radio Edit - feat. Pharrell Williams and Nile Rodgers)",
+      "rank": 97,
+      "title": "Quebec",
       "artists": [
-        "Daft Punk"
+        "Drake"
       ],
       "score": 0.9396,
       "appearances": [
         {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
           "rank": 14
         }
       ]
     },
     {
-      "rank": 86,
-      "title": "Cuando No Era Cantante (Remix)",
+      "rank": 98,
+      "title": "Freestyle",
       "artists": [
-        "El Bogueto"
+        "Lil Baby"
       ],
       "score": 0.9288,
       "appearances": [
         {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
+          "platform": "apple",
+          "label": "Apple Music 美国热歌榜",
           "rank": 15
         }
       ]
     },
     {
-      "rank": 87,
+      "rank": 99,
       "title": "忘不掉的你",
       "artists": [
         "h3R3"
@@ -1683,7 +1924,7 @@
       ]
     },
     {
-      "rank": 88,
+      "rank": 100,
       "title": "春娇与志明",
       "artists": [
         "街道办GDC",
@@ -1695,196 +1936,6 @@
           "platform": "qq",
           "label": "QQ音乐巅峰榜·热歌",
           "rank": 24
-        }
-      ]
-    },
-    {
-      "rank": 89,
-      "title": "Stop Crying Your Heart Out",
-      "artists": [
-        "Oasis"
-      ],
-      "score": 0.918,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 16
-        }
-      ]
-    },
-    {
-      "rank": 90,
-      "title": "红",
-      "artists": [
-        "罗言"
-      ],
-      "score": 0.912,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐热歌榜",
-          "rank": 25
-        }
-      ]
-    },
-    {
-      "rank": 91,
-      "title": "我听人说思念像风一样 (宿命版)",
-      "artists": [
-        "顿珠拉姆"
-      ],
-      "score": 0.912,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐TOP500",
-          "rank": 25
-        }
-      ]
-    },
-    {
-      "rank": 92,
-      "title": "orióN",
-      "artists": [
-        "Boza"
-      ],
-      "score": 0.9072,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 17
-        }
-      ]
-    },
-    {
-      "rank": 93,
-      "title": "晴天",
-      "artists": [
-        "周杰伦"
-      ],
-      "score": 0.9,
-      "appearances": [
-        {
-          "platform": "qq",
-          "label": "QQ音乐巅峰榜·热歌",
-          "rank": 40
-        },
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐TOP500",
-          "rank": 87
-        }
-      ]
-    },
-    {
-      "rank": 94,
-      "title": "你有没有真的爱过我",
-      "artists": [
-        "阿图表妹"
-      ],
-      "score": 0.9,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐TOP500",
-          "rank": 26
-        }
-      ]
-    },
-    {
-      "rank": 95,
-      "title": "Bebe Dame",
-      "artists": [
-        "Fuerza Regida"
-      ],
-      "score": 0.8964,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 18
-        }
-      ]
-    },
-    {
-      "rank": 96,
-      "title": "天外来物",
-      "artists": [
-        "薛之谦"
-      ],
-      "score": 0.888,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐热歌榜",
-          "rank": 95
-        },
-        {
-          "platform": "qq",
-          "label": "QQ音乐巅峰榜·热歌",
-          "rank": 33
-        }
-      ]
-    },
-    {
-      "rank": 97,
-      "title": "EL AMOR DE SU VIDA",
-      "artists": [
-        "Grupo Frontera"
-      ],
-      "score": 0.8856,
-      "appearances": [
-        {
-          "platform": "deezer",
-          "label": "Deezer 全球热歌榜",
-          "rank": 19
-        }
-      ]
-    },
-    {
-      "rank": 98,
-      "title": "两 难",
-      "artists": [
-        "加木"
-      ],
-      "score": 0.876,
-      "appearances": [
-        {
-          "platform": "netease",
-          "label": "网易云音乐热歌榜",
-          "rank": 28
-        }
-      ]
-    },
-    {
-      "rank": 99,
-      "title": "江南",
-      "artists": [
-        "林俊杰"
-      ],
-      "score": 0.876,
-      "appearances": [
-        {
-          "platform": "qq",
-          "label": "QQ音乐巅峰榜·热歌",
-          "rank": 28
-        }
-      ]
-    },
-    {
-      "rank": 100,
-      "title": "隔岸",
-      "artists": [
-        "姚六一"
-      ],
-      "score": 0.876,
-      "appearances": [
-        {
-          "platform": "kugou",
-          "label": "酷狗音乐TOP500",
-          "rank": 28
         }
       ]
     }
