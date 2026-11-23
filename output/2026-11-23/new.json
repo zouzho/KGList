@@ -1,0 +1,1740 @@
+{
+  "week": "2026-11-23",
+  "chart_type": "new",
+  "chart_label": "新歌榜",
+  "limit": 100,
+  "generated_at": "2026-11-23T08:51:34Z",
+  "source_platforms": [
+    "kugou",
+    "netease",
+    "qq"
+  ],
+  "item_count": 100,
+  "items": [
+    {
+      "rank": 1,
+      "title": "任天堂",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "score": 2.224,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 17
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 4
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Kiss My Soul (I want you kiss kiss)",
+      "artists": [
+        "Viik潘唯奇"
+      ],
+      "score": 1.904,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 10
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 26
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 29
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Hong Kong (feat. 王菲季候风)",
+      "artists": [
+        "The Weeknd"
+      ],
+      "score": 1.848,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 2
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 3
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 67
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "世间",
+      "artists": [
+        "陈卓璇"
+      ],
+      "score": 1.824,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 40
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 17
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "慌啥子嘛",
+      "artists": [
+        "赵本山"
+      ],
+      "score": 1.664,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 4
+        },
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 88
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "污点证人 (Live)",
+      "artists": [
+        "薛之谦"
+      ],
+      "score": 1.52,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 6
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "你猜",
+      "artists": [
+        "刘回"
+      ],
+      "score": 1.44,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 42
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 10
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 71
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "慌啥子嘛 (合唱版)",
+      "artists": [
+        "赵本山",
+        "赵大牛",
+        "球球"
+      ],
+      "score": 1.408,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 14
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "烂奇迹(不小心惹了上帝)",
+      "artists": [
+        "杨羊烊"
+      ],
+      "score": 1.392,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 8
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "DEPENDS",
+      "artists": [
+        "XG"
+      ],
+      "score": 1.368,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 15
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "不负你我",
+      "artists": [
+        "刘宇"
+      ],
+      "score": 1.336,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 5
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "愿与缘",
+      "artists": [
+        "王赫野",
+        "茜拉 (Shila Amzah)"
+      ],
+      "score": 1.28,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 8
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 34
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "title": "慢倍速",
+      "artists": [
+        "方了个木"
+      ],
+      "score": 1.152,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 9
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 49
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "title": "无中生有 Ex Nihilo",
+      "artists": [
+        "HOYO-MiX",
+        "當山みれい"
+      ],
+      "score": 1.08,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 14
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 53
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "title": "情根儿",
+      "artists": [
+        "沈春阳"
+      ],
+      "score": 1.064,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 52
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "title": "譬如我 (枕头下发霉的梦)",
+      "artists": [
+        "洛天依Official",
+        "姜洄"
+      ],
+      "score": 1.056,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 22
+        },
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 86
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 63
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "title": "最熟悉的陌生人 (live)",
+      "artists": [
+        "毛不易"
+      ],
+      "score": 1.048,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 34
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 37
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "title": "牡丹亭 (白九版)",
+      "artists": [
+        "浮生生"
+      ],
+      "score": 1.032,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 57
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "title": "这一生欠自己太多",
+      "artists": [
+        "丁小婉"
+      ],
+      "score": 0.968,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 66
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "title": "慌啥子嘛",
+      "artists": [
+        "黄文文"
+      ],
+      "score": 0.96,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 73
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "title": "答应我吧",
+      "artists": [
+        "金润吉"
+      ],
+      "score": 0.96,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 28
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 54
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "title": "两个人叫我们",
+      "artists": [
+        "悦开心",
+        "张家旺"
+      ],
+      "score": 0.904,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 33
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 56
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "title": "老牛 (Live)",
+      "artists": [
+        "周深"
+      ],
+      "score": 0.864,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 61
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 33
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "title": "冬天又来临",
+      "artists": [
+        "罗言RollFlash"
+      ],
+      "score": 0.816,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 7
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 93
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "title": "亲密有间",
+      "artists": [
+        "张靓颖"
+      ],
+      "score": 0.816,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 12
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 88
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "title": "冬天又来临",
+      "artists": [
+        "罗言"
+      ],
+      "score": 0.8,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "title": "慌啥子嘛 (赵本山版)",
+      "artists": [
+        "赵本山"
+      ],
+      "score": 0.8,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "title": "百分百喜欢",
+      "artists": [
+        "高卿尘Nine"
+      ],
+      "score": 0.8,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "title": "阴天也会有烦恼吗",
+      "artists": [
+        "TF_ING穆祉丞"
+      ],
+      "score": 0.792,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "title": "如果我拥有一座花园 (Live)",
+      "artists": [
+        "刘宇宁"
+      ],
+      "score": 0.792,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "title": "活该孤单",
+      "artists": [
+        "张新成"
+      ],
+      "score": 0.784,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 20
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 84
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "title": "降温",
+      "artists": [
+        "Zzh"
+      ],
+      "score": 0.784,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "title": "归期雨抄 (Live)",
+      "artists": [
+        "刘宇宁"
+      ],
+      "score": 0.768,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 99
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "title": "无 意",
+      "artists": [
+        "加木",
+        "Demxntia"
+      ],
+      "score": 0.768,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "title": "随他说去吧",
+      "artists": [
+        "陈日春"
+      ],
+      "score": 0.768,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "title": "GiiiRIP",
+      "artists": [
+        "BIGBANG (빅뱅)"
+      ],
+      "score": 0.76,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "title": "你的不经意",
+      "artists": [
+        "Fozik佛子克"
+      ],
+      "score": 0.752,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "title": "窗外的泪光 (窗外照着我的月亮)",
+      "artists": [
+        "浅浅微醺"
+      ],
+      "score": 0.744,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "title": "雪化作泪滴 (Old Tape)",
+      "artists": [
+        "Cheeze",
+        "Trazzy",
+        "雾明"
+      ],
+      "score": 0.736,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "title": "慌啥子嘛 (乡野版)",
+      "artists": [
+        "石满仓"
+      ],
+      "score": 0.728,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "title": "燃 (Live)",
+      "artists": [
+        "容祖儿"
+      ],
+      "score": 0.72,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "title": "吉时春",
+      "artists": [
+        "小阿七",
+        "张赫煊"
+      ],
+      "score": 0.72,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "title": "窗外的泪光 (烟嗓版)",
+      "artists": [
+        "烟嗓安野"
+      ],
+      "score": 0.72,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "title": "天下有情人",
+      "artists": [
+        "半吨兄弟",
+        "文星淇"
+      ],
+      "score": 0.712,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 38
+        },
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 75
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "title": "Letting Go",
+      "artists": [
+        "那英",
+        "蔡健雅"
+      ],
+      "score": 0.712,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "title": "Light the night",
+      "artists": [
+        "小恐龙"
+      ],
+      "score": 0.704,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "title": "You're Under Arrest",
+      "artists": [
+        "ILLIT (아일릿)"
+      ],
+      "score": 0.704,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "title": "慌啥子嘛 (静心版)",
+      "artists": [
+        "顿珠拉姆"
+      ],
+      "score": 0.704,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "title": "善待咱爹娘",
+      "artists": [
+        "龙涛"
+      ],
+      "score": 0.696,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "title": "The Moment You Saw Me（当我，在你的目光里）",
+      "artists": [
+        "米卡"
+      ],
+      "score": 0.688,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "title": "死神在揣着玫瑰",
+      "artists": [
+        "金金金金金"
+      ],
+      "score": 0.68,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "title": "一张相片",
+      "artists": [
+        "连麻Swimming"
+      ],
+      "score": 0.664,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "title": "卡农to me(最重要的是自己开心)",
+      "artists": [
+        "雾安Misty",
+        "撒安德萨"
+      ],
+      "score": 0.664,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "title": "Cherry Candy",
+      "artists": [
+        "Lunak"
+      ],
+      "score": 0.656,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "title": "雪化作泪滴",
+      "artists": [
+        "Cheeze",
+        "Lil Trazzy",
+        "雾明"
+      ],
+      "score": 0.656,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "title": "想你一遍雪落一片 (都说冬天适合想念)",
+      "artists": [
+        "沈念禾"
+      ],
+      "score": 0.656,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "title": "City Blue",
+      "artists": [
+        "Mili"
+      ],
+      "score": 0.648,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "title": "成全",
+      "artists": [
+        "江辰"
+      ],
+      "score": 0.64,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "title": "Dancing in the Dark",
+      "artists": [
+        "A2O SOUL",
+        "A2O"
+      ],
+      "score": 0.64,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "title": "今夜我又梦到你了",
+      "artists": [
+        "戎大姨"
+      ],
+      "score": 0.64,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "title": "最佳对手",
+      "artists": [
+        "云旗",
+        "郝熠然"
+      ],
+      "score": 0.632,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "title": "Call your name (混音版)",
+      "artists": [
+        "7zA",
+        "Komi酱"
+      ],
+      "score": 0.632,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "title": "Enjoy the trip",
+      "artists": [
+        "谢帝",
+        "艾志恒Asen"
+      ],
+      "score": 0.624,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "title": "慌啥子嘛",
+      "artists": [
+        "GooGoo"
+      ],
+      "score": 0.624,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "title": "大漠里的沙 (大漠长明)",
+      "artists": [
+        "指南针"
+      ],
+      "score": 0.624,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "title": "1000 winters",
+      "artists": [
+        "小北LinY"
+      ],
+      "score": 0.616,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "title": "Never Got You",
+      "artists": [
+        "Tamboss"
+      ],
+      "score": 0.616,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "title": "生活这碗无盐的面",
+      "artists": [
+        "马大炮"
+      ],
+      "score": 0.616,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "title": "The Moment You Saw Me",
+      "artists": [
+        "米卡"
+      ],
+      "score": 0.608,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 25
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "title": "Go Easy",
+      "artists": [
+        "Dua Lipa"
+      ],
+      "score": 0.608,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 25
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "title": "风念旧城郊",
+      "artists": [
+        "黄建威",
+        "宋若瑄"
+      ],
+      "score": 0.608,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 25
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "title": "MR.SAYLESS",
+      "artists": [
+        "THOME",
+        "黄格雷"
+      ],
+      "score": 0.6,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 26
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "title": "光阴的故事 (Live)",
+      "artists": [
+        "任贤齐",
+        "徐洁儿",
+        "陈楚生",
+        "万妮达Vinida Weng",
+        "毛不易",
+        "欧阳娜娜",
+        "刘耀文",
+        "张信哲",
+        "Tank",
+        "大张伟",
+        "郁可唯",
+        "曾沛慈",
+        "傅德泽",
+        "傅娟",
+        "傅媚",
+        "傅成大",
+        "欧阳妮妮",
+        "欧阳娣娣 (Didi Ouyang)",
+        "何炅",
+        "李莎旻子",
+        "曾宝仪"
+      ],
+      "score": 0.6,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 26
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "title": "遗憾总是贯穿人生始终",
+      "artists": [
+        "供销社乐队",
+        "边缘"
+      ],
+      "score": 0.592,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "title": "番茄花",
+      "artists": [
+        "呆呆破"
+      ],
+      "score": 0.592,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "title": "我问菩萨究竟何为良缘 (前世不欠 今生不见)",
+      "artists": [
+        "雪山阿木",
+        "自游诗"
+      ],
+      "score": 0.592,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "title": "在流水平静之前",
+      "artists": [
+        "CigarHan"
+      ],
+      "score": 0.584,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 28
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "title": "对月饮一杯寂寥 (热门氛围版)",
+      "artists": [
+        "DD小鑫"
+      ],
+      "score": 0.584,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 28
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "title": "《爱笑的天使》20周年合唱版",
+      "artists": [
+        "李嫣",
+        "窦靖童",
+        "王菲"
+      ],
+      "score": 0.576,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 29
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "title": "DESERVE",
+      "artists": [
+        "BABYMONSTER (베이비몬스터)"
+      ],
+      "score": 0.576,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 29
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "title": "回到你身边 (不插电)",
+      "artists": [
+        "h3R3"
+      ],
+      "score": 0.568,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "title": "我们有那么多时间",
+      "artists": [
+        "半吨兄弟"
+      ],
+      "score": 0.568,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "title": "撒哈拉的暴雨",
+      "artists": [
+        "连麻Swimming"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "title": "那是一瞬间的喜欢",
+      "artists": [
+        "厉娜"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "title": "Call your name (混音力气Remix)",
+      "artists": [
+        "Hui Sui"
+      ],
+      "score": 0.56,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "title": "湿吻",
+      "artists": [
+        "亿轩_Kingston",
+        "彭梓烨_Leo"
+      ],
+      "score": 0.552,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 32
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "title": "时光清浅",
+      "artists": [
+        "陈卓璇"
+      ],
+      "score": 0.552,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 32
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "title": "你还是从前的你吗 (乡野对唱版)",
+      "artists": [
+        "石满仓",
+        "石红豆"
+      ],
+      "score": 0.552,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 32
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "title": "罗马议事会(THE FORUM OF ROME)",
+      "artists": [
+        "皇昶枢（MULA SAKEE）"
+      ],
+      "score": 0.544,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 33
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "title": "想你就写信",
+      "artists": [
+        "郝熠然"
+      ],
+      "score": 0.536,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 34
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "title": "后会友期 (综艺《后会友期》片尾曲)",
+      "artists": [
+        "许飞"
+      ],
+      "score": 0.528,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 35
+        }
+      ]
+    },
+    {
+      "rank": 92,
+      "title": "我在呢",
+      "artists": [
+        "周翊然"
+      ],
+      "score": 0.528,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 35
+        }
+      ]
+    },
+    {
+      "rank": 93,
+      "title": "再也留不住你 伤感版",
+      "artists": [
+        "筱诺"
+      ],
+      "score": 0.528,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 35
+        }
+      ]
+    },
+    {
+      "rank": 94,
+      "title": "爱而不得 (Live)",
+      "artists": [
+        "薛之谦",
+        "黄子弘凡"
+      ],
+      "score": 0.52,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 36
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "title": "ICONIC",
+      "artists": [
+        "CL (李彩麟)"
+      ],
+      "score": 0.52,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 36
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "title": "慌啥子嘛",
+      "artists": [
+        "宋盐球"
+      ],
+      "score": 0.52,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 36
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "title": "燃 (Live)",
+      "artists": [
+        "颜人中"
+      ],
+      "score": 0.512,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 37
+        }
+      ]
+    },
+    {
+      "rank": 98,
+      "title": "Drawn",
+      "artists": [
+        "THAMA"
+      ],
+      "score": 0.512,
+      "appearances": [
+        {
+          "platform": "qq",
+          "label": "QQ音乐巅峰榜·新歌",
+          "rank": 37
+        }
+      ]
+    },
+    {
+      "rank": 99,
+      "title": "Missing My Lover",
+      "artists": [
+        "Vex",
+        "SHaDow（影）",
+        "MerrinZephyr"
+      ],
+      "score": 0.504,
+      "appearances": [
+        {
+          "platform": "netease",
+          "label": "网易云音乐新歌榜",
+          "rank": 38
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "title": "我是大漠里的一粒沙",
+      "artists": [
+        "戎大姨"
+      ],
+      "score": 0.504,
+      "appearances": [
+        {
+          "platform": "kugou",
+          "label": "酷狗音乐新歌榜",
+          "rank": 38
+        }
+      ]
+    }
+  ]
+}
